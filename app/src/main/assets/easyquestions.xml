@@ -1,0 +1,2731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kolaysuraqtar>
+    <suraqtar>
+        <suraq>Жарық сөзінің антонимі қайсы?</suraq>
+        <a>Ұзақ</a>
+        <b>Қараңғы</b>
+        <c>Ақ</c>
+        <d>Қатты</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мыналардық қайсысына су құйып ішеді?</suraq>
+        <a>Құрғақ орамал</a>
+        <b>Құрғақ жеміс</b>
+        <c>Құрғақ сүт</c>
+        <d>Құрғақ шарап</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Нью-Йорк таксиінің түсі?</suraq>
+        <a>Көк</a>
+        <b>Қызыл</b>
+        <c>Ақ</c>
+        <d>Сары</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қайсы шама ең кіші?</suraq>
+        <a>Байт</a>
+        <b>Мегабит</b>
+        <c>Терабайт</c>
+        <d>Бит</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қайсысы тағам шығарады?</suraq>
+        <a>Gucci</a>
+        <b>Louic Vouiton</b>
+        <c>Facebook</c>
+        <d>Nestle</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Ресей федерациясының астанасы?</suraq>
+        <a>Ленинград</a>
+        <b>Киев</b>
+        <c>Мәскеу</c>
+        <d>Орынбор</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Әлемдегі ең кішкентай мұхит қайсысы?</suraq>
+        <a>Тынық</a>
+        <b>Атлант</b>
+        <c>Үнді</c>
+        <d>Солтүстік мұзды</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Германияда қандай ақша қолданылады?</suraq>
+        <a>Фунт стерлингі</a>
+        <b>Доллар</b>
+        <c>Сом</c>
+        <d>Евро</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Австралияның астанасы қайсы?</suraq>
+        <a>Канберра</a>
+        <b>Пекин</b>
+        <c>Хельсинки</c>
+        <d>Сеул</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Жер көлемі ең үлкен қай мемлекет?</suraq>
+        <a>Ватикан</a>
+        <b>Қытай</b>
+        <c>Ресей</c>
+        <d>АҚШ</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Бір литр судың салмағы қанша?</suraq>
+        <a>100гр</a>
+        <b>1кг</b>
+        <c>300мг</c>
+        <d>2кг</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Билл Гейтс қайсы компанияның негізін қалады?</suraq>
+        <a>Microsoft</a>
+        <b>Apple</b>
+        <c>Cisco</c>
+        <d>Tesla</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Абай Құнанбаев қай жылы тулыған?</suraq>
+        <a>1455</a>
+        <b>1976</b>
+        <c>1845</c>
+        <d>1905</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Бұл элемент тыныс алуымыз үшін маңызды.</suraq>
+        <a>Сутегі</a>
+        <b>Оттегі</b>
+        <c>Литий</c>
+        <d>Мырыщ</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Күн жүйесіндегі ең үлкен ғаламшар</suraq>
+        <a>Жер</a>
+        <b>Меркурий</b>
+        <c>Сатурн</c>
+        <d>Юпитер</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Аралар бал жасау үшін нені жинайды?</suraq>
+        <a>Су</a>
+        <b>Қант</b>
+        <c>Нектар</c>
+        <d>Бал</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Күн жүйесіндегі ең ыстық планета қандай?</suraq>
+        <a>Шолпан</a>
+        <b>Жер</b>
+        <c>Нептун</c>
+        <d>Плутон</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Судың қайнау температура градусы</suraq>
+        <a>120 Цельсий</a>
+        <b>100 Цельсий</b>
+        <c>80 Цельсий</c>
+        <d>0 Цельсий</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Өсімдікті де еттіде житін жануарды қалай атайды?</suraq>
+        <a>Бәрін жегіштер</a>
+        <b>Жыртқыштар</b>
+        <c>Фитофагия</c>
+        <d>Талғаусыздар</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Ғарышқа ең алғаш ұшқан жануар есімі</suraq>
+        <a>Ақтөс</a>
+        <b>Лайка</b>
+        <c>Бобик</c>
+        <d>Стрелка</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>H2O бұл қай химиялық элемент?</suraq>
+        <a>Оттегі</a>
+        <b>Сутегі</b>
+        <c>Күкірт</c>
+        <d>Сынап</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>АҚШ неше штаттан тұрады?</suraq>
+        <a>40</a>
+        <b>68</b>
+        <c>50</c>
+        <d>24</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Шаршаған адамдарға не керек?</suraq>
+        <a>Ұйқы</a>
+        <b>Ас</b>
+        <c>Су</c>
+        <d>Дәрі</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Шөлдеген адамдарға не керек?</suraq>
+        <a>Ас</a>
+        <b>Ұйқы</b>
+        <c>Дәрі</c>
+        <d>Су</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Жаңбыр жауғанда аспан қандай түске айналады?</suraq>
+        <a>Сары</a>
+        <b>Көк</b>
+        <c>Сұр</c>
+        <d>Жасыл</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Қандай ауыл жануарлары ішуге сүт береді?</suraq>
+        <a>Қой</a>
+        <b>Қоян</b>
+        <c>Қасқыр</c>
+        <d>Сиыр</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Қағаз ақшаны алғаш қолданған қай ел болды?</suraq>
+        <a>Польша</a>
+        <b>Үндістан</b>
+        <c>Германия</c>
+        <d>Қытай</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Егер сіз су қайнатсаңыз, сіз не аласыз?</suraq>
+        <a>Шәй</a>
+        <b>Бу</b>
+        <c>Мұз</c>
+        <d>Тамақ</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Әлемдегі ең үлкен өрмекші қайсысы?</suraq>
+        <a>Тарантула</a>
+        <b>Гепард</b>
+        <c>Коала</c>
+        <d>Алабай</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Әлемдегі ең кіші ел?</suraq>
+        <a>Ресей</a>
+        <b>Аргентина</b>
+        <c>Ватикан</c>
+        <d>Австрия</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Бадминтон ойыны қайдан пайда болды?</suraq>
+        <a>Англия</a>
+        <b>Грекия</b>
+        <c>Үндістан</c>
+        <d>Қытай</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Шахматтың отаны</suraq>
+        <a>Болгария</a>
+        <b>Үндістан</b>
+        <c>Шри-Ланка</c>
+        <d>Германия</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Өріктің отаны</suraq>
+        <a>Монголия</a>
+        <b>Кения</b>
+        <c>Өзбекстан</c>
+        <d>Қытай</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Ай жерді айналып өту үшін қанша уақыт керек?</suraq>
+        <a>1 ай</a>
+        <b>1 жыл</b>
+        <c>6 ай</c>
+        <d>4 жыл</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Магнит нені тартады?</suraq>
+        <a>Мыс</a>
+        <b>Алюминий</b>
+        <c>Қола</c>
+        <d>Темір</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>2020 олимпиада ойындары қайда өтті?</suraq>
+        <a>БАӘ</a>
+        <b>Жапония</b>
+        <c>Бразилия</c>
+        <d>Корея</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Қазақстандағы халқы көп облыс?</suraq>
+        <a>ОҚО</a>
+        <b>Алматы</b>
+        <c>Маңғыстау</c>
+        <d>Ақтөбе</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қазақтың ұлы ақыны?</suraq>
+        <a>Л.Толстой</a>
+        <b>А.Құнанбаев</b>
+        <c>Т.Шевченко</c>
+        <d>У.Шекспир</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Алтын химияда белгіленуі?</suraq>
+        <a>Gd</a>
+        <b>Or</b>
+        <c>Gi</c>
+        <d>Au</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жердің су қабығы?</suraq>
+        <a>Атмосфера</a>
+        <b>Зоосфера</b>
+        <c>Литосфера</c>
+        <d>Гидросфера</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жер бетінде неше материк бар?</suraq>
+        <a>4</a>
+        <b>2</b>
+        <c>3</c>
+        <d>6</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жердің ортасында не орналасқан?</suraq>
+        <a>Су</a>
+        <b>Ядро</b>
+        <c>Темір</c>
+        <d>Сынап</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Пицца қай елдің тағамы?</suraq>
+        <a>Испания</a>
+        <b>Франция</b>
+        <c>Италия</c>
+        <d>Жапония</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қанаты бар бірақ, ұшпайтын құс?</suraq>
+        <a>Аққу</a>
+        <b>Пингвин</b>
+        <c>Қарлығаш</c>
+        <d>Қыран</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Болгария астанасы?</suraq>
+        <a>Бухарест</a>
+        <b>Амстердам</b>
+        <c>София</c>
+        <d>Прага</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Президенті актер болған ел?</suraq>
+        <a>Украина</a>
+        <b>Солтүстік Корея</b>
+        <c>Австрия</c>
+        <d>Ресей</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қазақтың жаңа жылы?</suraq>
+        <a>Кристмас</a>
+        <b>Хеллоуин</b>
+        <c>Наурыз</c>
+        <d>9 мамыр</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Абай жолы романын кім жазған?</suraq>
+        <a>М.Әуезов</a>
+        <b>А.Құнанбаев</b>
+        <c>М.Мақатаев</c>
+        <d>О.Сүлейменов</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Египеттің танымалдылығы?</suraq>
+        <a>Құрғақтылықтан</a>
+        <b>Африкада орналасқаны</b>
+        <c>Пирамидалар</c>
+        <d>Адамдарынан</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>2 дүние жүзілік соғыс қай жылы басталды?</suraq>
+        <a>1941</a>
+        <b>1918</b>
+        <c>1939</c>
+        <d>1945</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Кристиано Рональду ойнайтын клуб?</suraq>
+        <a>Барселона</a>
+        <b>Ливерпуль</b>
+        <c>Ювентус</c>
+        <d>Арсенал</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Өзбекстан валютасы?</suraq>
+        <a>Евро</a>
+        <b>Тенге</b>
+        <c>Лира</c>
+        <d>Сом</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Алға сөзінің антонимі?</suraq>
+        <a>Оңға</a>
+        <b>Жоғары</b>
+        <c>Қара</c>
+        <d>Артқа</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қайсы әнші Айта Берсін әнін айтады?</suraq>
+        <a>Жанар Дұғалова</a>
+        <b>Димаш</b>
+        <c>Тимати</c>
+        <d>Лил Памп</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қазақтың ұлттық аспабы?</suraq>
+        <a>Гитара</a>
+        <b>Скрипка</b>
+        <c>Домбыра</c>
+        <d>Сыбызғы</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Судық қатты күйін қалайатайды?</suraq>
+        <a>Тамшы</a>
+        <b>Түтін</b>
+        <c>Бу</c>
+        <d>Мұз</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қайсы боксшы "Ұлы" және "Халықтық чемпион" деп танылды?</suraq>
+        <a>Мухаммед Али</a>
+        <b>Сауль Альварес</b>
+        <c>Майк Тайсон</c>
+        <d>Рой Джонс</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Сүйектерді берік ұстайтын қандай элементті айтады?</suraq>
+        <a>Мырыш</a>
+        <b>Титан</b>
+        <c>Кальций</c>
+        <d>Сынап</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай континент ең үлкен?</suraq>
+        <a>Азия</a>
+        <b>Европа</b>
+        <c>Африка</c>
+        <d>Австралия</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жеті кереметтің қайсысы Египетте орналасқан?</suraq>
+        <a>Бабылдың аспалы бағы</a>
+        <b>Гиза пирамидалары</b>
+        <c>Александрия шамшырағы</c>
+        <d>Артемида ғибадатханасы</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+
+
+        <suraq>Бесік жырын жалғастырыңыз "Әлди, әлди - ..."</suraq>
+        <a>бесігім</a>
+        <b>балақай</b>
+        <c>ақ бөпем</c>
+        <d>кітабым</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мақалды толықтырыңыз - "Кітап— қаймақ, ... — оймақ."</suraq>
+        <a>Адам</a>
+        <b>Ине</b>
+        <c>Мысық</c>
+        <d>Білім</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мақалды толықтырыңыз - "Кәсіп, кәсіп түбі — ..."</suraq>
+        <a>Нәсіп</a>
+        <b>Жалақы</b>
+        <c>Байлық</c>
+        <d>Надандық</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Иіс сезу мүшесі қайсы?</suraq>
+        <a>Өкпе</a>
+        <b>Мұрын</b>
+        <c>Құлақ</c>
+        <d>Көз</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Чехия әлемнің қай бөлігінде?</suraq>
+        <a>Австралия</a>
+        <b>Азия</b>
+        <c>Европа</c>
+        <d>Африка</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мақалды толықтырыңыз - "Еңбегі аздың ... аз"</suraq>
+        <a>Өнбегі</a>
+        <b>Жалақысы</b>
+        <c>Суы</c>
+        <d>Көлігі</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мақалды толықтырыңыз - "Еңбегі аздың ... аз"</suraq>
+        <a>Өнбегі</a>
+        <b>Жалақысы</b>
+        <c>Суы</c>
+        <d>Көлігі</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мақалды толықтырыңыз - "Еңбегі аздың ... аз"</suraq>
+        <a>Өнбегі</a>
+        <b>Жалақысы</b>
+        <c>Суы</c>
+        <d>Көлігі</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Автокөлік күшін қай жануар күшімен есептейді?</suraq>
+        <a>Мысық</a>
+        <b>Аю</b>
+        <c>Жылқы</c>
+        <d>Гепард</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қайсы тілде сөздер өте көп?</suraq>
+        <a>Қытай</a>
+        <b>Орыс</b>
+        <c>Неміс</c>
+        <d>Ағылшын</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Өрмекшінің неше аяғы бар</suraq>
+        <a>2</a>
+        <b>4</b>
+        <c>8</c>
+        <d>5</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Изумрудтың түсі қандай?</suraq>
+        <a>Жасыл</a>
+        <b>Қызыл</b>
+        <c>Ақ</c>
+        <d>Қара</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Әдетте балғамен нені ұрады?</suraq>
+        <a>Тас</a>
+        <b>Шеге</b>
+        <c>Жер</c>
+        <d>Көлік</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Өтірік айтқан сайын мұрны ұзаратын мультфилім кейіпкері</suraq>
+        <a>Ральф</a>
+        <b>Алдар көсе</b>
+        <c>Пинокио</c>
+        <d>Шрек</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Америкалық жалауда неше жұлдыз бар?</suraq>
+        <a>25</a>
+        <b>10</b>
+        <c>375</c>
+        <d>50</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>АҚШ президенті қайда тұрады?</suraq>
+        <a>Жасыл үй</a>
+        <b>Көшеде</b>
+        <c>Ақ үй</c>
+        <d>Қара үй</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Күн жүйесінде неше планета бар?</suraq>
+        <a>3</a>
+        <b>8</b>
+        <c>4</c>
+        <d>15</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Америкалық мектеп автобустарының түсі</suraq>
+        <a>Жасыл</a>
+        <b>Қызыл</b>
+        <c>Қоңыр</c>
+        <d>Сары</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Ең жылдам жануарды табыңыз</suraq>
+        <a>Түйеқұс</a>
+        <b>Гепард</b>
+        <c>Қоян</c>
+        <d>Жираф</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Кемпірқосақта неше түс бар?</suraq>
+        <a>3</a>
+        <b>7</b>
+        <c>11</c>
+        <d>5</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Ең ұзын жануарды табыңыз</suraq>
+        <a>Түйе</a>
+        <b>Жираф</b>
+        <c>Арыстан</c>
+        <d>Тышқан</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Кенгурулар қайда мекендейді?</suraq>
+        <a>АҚШ</a>
+        <b>Қытай</b>
+        <c>Австралия</c>
+        <d>Африка</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Арзан сөзінің антонимін табыңыз</suraq>
+        <a>Сапасыз</a>
+        <b>Қара</b>
+        <c>Қымбат</c>
+        <d>Аз</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Панда немен қоректенеді?</suraq>
+        <a>Фаст-фуд</a>
+        <b>Бамбук</b>
+        <c>Бешбармақ</c>
+        <d>Банан</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Қазақстан тәуелсіздік күні</suraq>
+        <a>16 желтоқсын</a>
+        <b>30 тамыз</b>
+        <c>9 мамыр</c>
+        <d>8 мамыр</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Акулада не болмайды?</suraq>
+        <a>Ми</a>
+        <b>Құлақ</b>
+        <c>Көз</c>
+        <d>Сүйек</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Жерге жақын жұлдызды атаңыз</suraq>
+        <a>Темірқазық</a>
+        <b>Жетіқарақшы</b>
+        <c>Күн</c>
+        <d>Үркер</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Жанартау атылғаннан кейін балқытылған тау жынысы қалай аталады?</suraq>
+        <a>Су</a>
+        <b>Аллигатор</b>
+        <c>Лава</c>
+        <d>Мұз</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Олипиада ойындары ең алғаш қай елде болды?</suraq>
+        <a>АҚШ</a>
+        <b>Ресей</b>
+        <c>Жапония</c>
+        <d>Грекия</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>1912 жылы өзінің алғашқы сапарында қай атақты мұхит лайнері батып кетті?</suraq>
+        <a>Рекс</a>
+        <b>Антония</b>
+        <c>Квин Мэри</c>
+        <d>Титаник</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Фиона ханшайым қайсы филімнен?</suraq>
+        <a>Өрмекші адам</a>
+        <b>Бэтмен</b>
+        <c>Шрек</c>
+        <d>Микки Маус</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Әлемдегі ең биік шың</suraq>
+        <a>Эверест</a>
+        <b>Джомолунгма </b>
+        <c>Канченджанга </c>
+        <d>Тянь-шань </d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Әлемдегі ең үлкен көл</suraq>
+        <a>Балхаш</a>
+        <b>Каспий</b>
+        <c>Гурон</c>
+        <d>Мичиган</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>АҚШ астанасын табыңыз</suraq>
+        <a>Лондон</a>
+        <b>Вашингтон</b>
+        <c>Прага</c>
+        <d>Берлин</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>2012 жылы олимпиада ойындары қайда өтті</suraq>
+        <a>Токио, Жапония</a>
+        <b>Дубай, БАӘ</b>
+        <c>Лондон, Британия</c>
+        <d>Мәскеу, Ресей</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Футбол алаңында 1 командада неше ойыншы болу керек</suraq>
+        <a>22</a>
+        <b>11</b>
+        <c>8</c>
+        <d>6</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Джунгли кітабы филіміндегі аюдың аты</suraq>
+        <a>Маугли</a>
+        <b>Багира</b>
+        <c>Шерхан</c>
+        <d>Балу</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Ежелде Фараондар деп қай елдің басшысын атаған?</suraq>
+        <a>Грекия</a>
+        <b>Египет</b>
+        <c>Монғолия</c>
+        <d>Қытай</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Apple компаниясын құрған адам</suraq>
+        <a>Стив Джобс</a>
+        <b>Илон Маск</b>
+        <c>Билл Гейтс</c>
+        <d>Джеф Беззос</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Күнге ең жақын планета</suraq>
+        <a>Жер</a>
+        <b>Марс</b>
+        <c>Юпитер</c>
+        <d>Меркурий</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Стамбул қай елдің астанасы?</suraq>
+        <a>Бельгия</a>
+        <b>Канада</b>
+        <c>Түркия</c>
+        <d>Грузия</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Бразилиялықтар қай тілде сөйлейді?</suraq>
+        <a>Орыс</a>
+        <b>Португал</b>
+        <c>Италиян</c>
+        <d>Үнді</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Ақ көгершін символы нені білдіреді?</suraq>
+        <a>Бейбітшілік</a>
+        <b>Күлкі</b>
+        <c>Тамақты</c>
+        <d>Мұңды</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Шректің әйелін атаңыз?</suraq>
+        <a>Рапунцель</a>
+        <b>Багира</b>
+        <c>Патрик</c>
+        <d>Фиона</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>1 киллограм неше грамм</suraq>
+        <a>50</a>
+        <b>40</b>
+        <c>100</c>
+        <d>1000</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Құрлықтағы ең үлкен жануар</suraq>
+        <a>Арыстан</a>
+        <b>Жираф</b>
+        <c>Піл</c>
+        <d>Сиыр</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Миллион жыл бұрын өмір сүрген тіршілік иелері</suraq>
+        <a>Динозаврлар</a>
+        <b>Балықтар</b>
+        <c>Адамдар</c>
+        <d>Құстар</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Жылдың жетінші айы</suraq>
+        <a>Ақпан</a>
+        <b>Шілде</b>
+        <c>Қазан</c>
+        <d>Тамыз</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Сегіз аяғы бар теңізде өмір сүретін жануар</suraq>
+        <a>Балық</a>
+        <b>Акула</b>
+        <c>Дельфин</c>
+        <d>Сегізаяқ</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>АҚШ-та қай спорт түрі ең танымал?</suraq>
+        <a>Баскетбол</a>
+        <b>Футбол</b>
+        <c>Теннис</c>
+        <d>Бокс</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Иттің ең кіші тұқымы?</suraq>
+        <a>Алабай</a>
+        <b>Бульдог</b>
+        <c>Пить-булл</c>
+        <d>Чихуахуа</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Көбелектер неше аяқтан тұрады?</suraq>
+        <a>2</a>
+        <b>4</b>
+        <c>7</c>
+        <d>6</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Адамдары ең көп ел қай ел?</suraq>
+        <a>Үндістан</a>
+        <b>Қытай</b>
+        <c>Ватикан</c>
+        <d>АҚШ</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Жирафтар тіршілік ететін құрлық</suraq>
+        <a>Азия</a>
+        <b>Оңт. Америка</b>
+        <c>Европа</c>
+        <d>Африка</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Американың алғашқы президенті кім болды?</suraq>
+        <a>Барак Обама</a>
+        <b>Джордж Вашингтон</b>
+        <c>Аврам Линкольн</c>
+        <d>Генри Форд</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Қозы Көрпештің ғашығының есімі кім?</suraq>
+        <a>Жібек</a>
+        <b>Баян</b>
+        <c>Ләйлі</c>
+        <d>Еңлік</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Ғылыми жұмыстарға әзірленіп жүрген адам?</suraq>
+        <a>Оқушы</a>
+        <b>Студент</b>
+        <c>Аспирант</c>
+        <d>Абитурент</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қазақтың әйгілі суретшісі?</suraq>
+        <a>Әбілхан Қастеев</a>
+        <b>А.С.Пушки</b>
+        <c>Шекспир</c>
+        <d>Пабло Пикассо</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+    <suraqtar>
+        <suraq> «Абай жолы» романының авторы</suraq>
+        <a> Шәкәрім Құдайбердіұлы</a>
+        <b> Мұхтар Әуезов</b>
+        <c> Абай</c>
+        <d> Мағжан Жұмабаев</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+    <suraqtar>
+        <suraq> 5 минутта қанша секунд бар?</suraq>
+        <a> 200</a>
+        <b> 400</b>
+        <c> 300</c>
+        <d> 500</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+    <suraqtar>
+        <suraq> Мақал бойынша жүз теңгең болғанша не болсын?</suraq>
+        <a> Жүз доллар</a>
+        <b> Жүз дос</b>
+        <c> Жүз әйел</c>
+        <d> Жүз көлік</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+    <suraqtar>
+        <suraq> Спортта өзінің қақпасына салынған гол қалай аталады?</suraq>
+        <a> Автогол</a>
+        <b> Полигол</b>
+        <c> Мотогол</c>
+        <d> Моногол</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+    <suraqtar>
+        <suraq> Тісті күніне қанша рет жуу керек?</suraq>
+        <a> 1</a>
+        <b> 3</b>
+        <c> 2</c>
+        <d> 4</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+    <suraqtar>
+        <suraq> Алматыда қоғамдық көліктерде қолданылатын жолақы төлеу картасы қалай аталады?</suraq>
+        <a> Қиын</a>
+        <b> Оңай</b>
+        <c> Тез</c>
+        <d> Арзан</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+    <suraqtar>
+        <suraq> Қарақат пен Қыдырәлі қай бағдарламаны жүргізеді?</suraq>
+        <a> КТА</a>
+        <b> Бенефис шоу</b>
+        <c> Әзіл әлемі</c>
+        <d> Көңілашар</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+    <suraqtar>
+        <suraq> Нұрлан Қоянбаев қай бағдарламаны жүргізген?</suraq>
+        <a> Таңшолпан</a>
+        <b> Түнгі студия</b>
+        <c> Әйел бақыты</c>
+        <d> Жайдарман</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+    <suraqtar>
+        <suraq> Жайдарман ойындарын кім жүргізеді?</suraq>
+        <a> Тұрсынбек Қабатов</a>
+        <b> Нұрлан Қоянбаев</b>
+        <c> Есен Елеукен</c>
+        <d> Лейла Сұлтанқызы</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Лейла Сұлтанқызы қай бағдарламаны жүргізеді?</suraq>
+        <a> Әйел бақыты</a>
+        <b> Таңшолпан</b>
+        <c> Түңгі студия</c>
+        <d> Жайдарман</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Екі бала шахматты екі сағат ойнады. Олардың әрқайсысы неше сағат ойланды?</suraq>
+        <a> 4</a>
+        <b> 2</b>
+        <c> 1</c>
+        <d> 3</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Қазақстандағы облыстар саны қанша?</suraq>
+        <a> 14</a>
+        <b> 15</b>
+        <c> 12</c>
+        <d> 17</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> «Ауырмайды жүрек» әнін кім айтады?</suraq>
+        <a> Мейрамбек Беспаев</a>
+        <b> Ернар Айдар</b>
+        <c> Қайрат Нұртас</c>
+        <d> Төреғали Төреәлі</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> «Басқа пәле ...» мақалды жалғастырыңыз</suraq>
+        <a> Көзден</a>
+        <b> Қыздардан</b>
+        <c> Тілден</c>
+        <d> Кредиттен</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Қазақстандағы халқы ең көп қала</suraq>
+        <a> Алматы</a>
+        <b> Нұр-Сұлтан</b>
+        <c> Шымкент</c>
+        <d> Қарағанды</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Әйгілі «Тука», «Үбән» рөлдерін сомдаған әртіс</suraq>
+        <a> Уәлибек</a>
+        <b> Жүсіп</b>
+        <c> Тұрсынбек</c>
+        <d> Нұржан</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> 7 мамыр қандай мереке?</suraq>
+        <a> Жеңіс күні</a>
+        <b> Отан Қорғаушы күні</b>
+        <c> Бейбітшілік күні</c>
+        <d> Жігіттер күні</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+    <suraq> Судан шығады судан қорқады</suraq>
+    <a> Қант</a>
+    <b> Тұз</b>
+    <c> От</c>
+    <d> Мыс</d>
+    <zhauap>2</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+    <suraq> Ең үлкен сүтқоректі қайсы?</suraq>
+    <a> Арыстан</a>
+    <b> Елік</b>
+    <c> Кит</c>
+    <d> Бұғы</d>
+    <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq> Ең үлкен аю қайсы?</suraq>
+        <a> Қара аю</a>
+        <b> Сары аю</b>
+        <c> Ақ аю</c>
+        <d> Қоңыр аю</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Ең үлкен жыртқыш аң қайсы?</suraq>
+        <a> Арыстан</a>
+        <b> Жолбарыс</b>
+        <c> Гепард</c>
+        <d> Ақ аю</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Оңтүстікте орналасқан материк</suraq>
+        <a> Антарктида</a>
+        <b> Еуразия</b>
+        <c> Австралия</c>
+        <d> Азия</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> КешYou тобының продюсері кім?</suraq>
+        <a> Тоқтар Серіков</a>
+        <b> Сәкен Майғазиев</b>
+        <c> Баян Мақсатқызы</c>
+        <d> Қыдырәлі Болманов</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> «Жарығым-ай» әнінің орындаушысы кім?</suraq>
+        <a> Қайрат Нұртас</a>
+        <b> Нұржан Әлімжан</b>
+        <c> Ернар Айдар</c>
+        <d> Қайрат Түнтеков</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Шректің түсі қандай?</suraq>
+        <a> Қоңыр</a>
+        <b> Қара</b>
+        <c> Ақ</c>
+        <d> Жасыл</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Әр мезгілде қанша ай болады?</suraq>
+        <a> 2</a>
+        <b> 3</b>
+        <c> 4</c>
+        <d> 1</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Ең атақты әнші әрі биші</suraq>
+        <a> Мейрамбек Беспаев</a>
+        <b> Майкл Джексон</b>
+        <c> Қайрат Нұртас</c>
+        <d> Джим Керри</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> «Алғашқы махаббат» әнінің орындаушысы</suraq>
+        <a> Мейрамбек Беспаев</a>
+        <b> Қайрат Нұртас</b>
+        <c> Тоқтар Серіков</c>
+        <d> Қыдырәлі Болманов</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Жұлдызды жұп «Қыдырәлі Болманов және ...»</suraq>
+        <a> Жанар Дұғалова</a>
+        <b> Бейбіт Сейдуалиева</b>
+        <c> Қарақат Әбілдина</c>
+        <d> Мадина Сәдуақасова</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Қазақстанда метросы бар қала жалғыз қала</suraq>
+        <a> Нұр-Сұлтан</a>
+        <b> Шымкент</b>
+        <c> Атырау</c>
+        <d> Алматы</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Көк-Төбе қай қалада орналасқан?</suraq>
+        <a> Алматы</a>
+        <b> Нұр-Сұлтан</b>
+        <c> Шымкент</c>
+        <d> Ақтөбе</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Көбіне тек суреттер мен видео салатын желі</suraq>
+        <a> Инстаграм</a>
+        <b> Вконтакте</b>
+        <c> Фейсбук</c>
+        <d> Мой Мир</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> «Бол жанымда» әнінің орындаушысы кім?</suraq>
+        <a> Қайрат Нұртас</a>
+        <b> Төреғали Төреәлі</b>
+        <c> Ернар Айдар</c>
+        <d> Тоқтар Серіков</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> «Сонда да сүйем» әнінің орындаушысы</suraq>
+        <a> Қайрат Нұртас</a>
+        <b> Ернар Айдар</b>
+        <c> Төреғали Төреәлі</c>
+        <d> Мейрамбек Беспаев</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Ұлытау тобының продюсері кім?</suraq>
+        <a> Сәкен Майғазиев</a>
+        <b> Қыдырәлі Болманов</b>
+        <c> Баян Мақсатқызы</c>
+        <d> Тоқтар Серіков</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Музарт тобы алдында қанша адамнан құралған топ еді</suraq>
+        <a> 3</a>
+        <b> 2</b>
+        <c> 4</c>
+        <d> 5</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> «Куә бол» әнін орындаған топ</suraq>
+        <a> Музарт</a>
+        <b> Нұр Мұқасан</b>
+        <c> Ринго</c>
+        <d> Дос Мұқасан</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Қай ойынды көп ойнаса бойын ұзын болады?</suraq>
+        <a> Футбол</a>
+        <b> Баскетбол</b>
+        <c> Теннис</c>
+        <d> Шахмат</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Миға пайдасы көп спорт түрі</suraq>
+        <a> Шахмат</a>
+        <b> Баскетбол</b>
+        <c> Волейбол</c>
+        <d> Футбол</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Тіс ауырса кімге барамыз?</suraq>
+        <a> Стоматолог</a>
+        <b> Педиатр</b>
+        <c> Травматолог</c>
+        <d> Невролог</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Головкин қай спорт түрінен әйгілі?</suraq>
+        <a> Шаңғы</a>
+        <b> Бокс</b>
+        <c> Шахмат</c>
+        <d> Футбол</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Бөлмелерді жалғайтын зат</suraq>
+        <a> Есік</a>
+        <b> Терезе</b>
+        <c> Орындық</c>
+        <d> Үстел</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Қазақстанда халық саны шамамен қанша миллион?</suraq>
+        <a> 10</a>
+        <b> 25</b>
+        <c> 101</c>
+        <d> 18</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Қазақстанның солтүстіктегі көршісі</suraq>
+        <a> Қырғызстан</a>
+        <b> Түркия</b>
+        <c> Ресей</c>
+        <d> Өзбекстан</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Қазақстан туының түсі қандай?</suraq>
+        <a> Жасыл</a>
+        <b> Сары</b>
+        <c> Көгілдір</c>
+        <d> Ақ</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Қазақстан туындағы аспан денесі</suraq>
+        <a> Ай</a>
+        <b> Бұлт</b>
+        <c> Күн</c>
+        <d> Жұлдыз</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Ресейдің ең атақты желісі қалай аталады?</suraq>
+        <a> Вконтакте</a>
+        <b> Инстаграм</b>
+        <c> Одноклассники</c>
+        <d> Фейсбук</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Алматы мен Шымкент қалаларының арасында тұрған қала</suraq>
+        <a> Тараз</a>
+        <b> Павлодар</b>
+        <c> Семей</c>
+        <d> Атырау</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Қазақстанда КВН ойындары қалай аталады?</suraq>
+        <a> Алдараспан</a>
+        <b> Нысана</b>
+        <c> Жайдарман</c>
+        <d> Шаншар</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq> Жайдарман ойыншыларынан құралған әзіл сықақ театры</suraq>
+        <a> Нысана</a>
+        <b> Алдараспан</b>
+        <c> Шаншар</c>
+        <d> Тамаша</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Өнер алды ... тіл. Мақал бойынша қандай тіл?</suraq>
+        <a>Сары</a>
+        <b>Көк</b>
+        <c>Қызыл</c>
+        <d>Қоңыр</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мыналардың қайсысы Хемингуэйдің есімі?</suraq>
+        <a>Эрнест</a>
+        <b>Элвис</b>
+        <c>Эндрю</c>
+        <d>Эраст</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Тік бұрышты үшбұрышта міндетті түрде болады</suraq>
+        <a>Радиус</a>
+        <b>Диагональ</b>
+        <c>Диаметр</c>
+        <d>Гипотенуза</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай офицерде жұлдыздар саны көп?</suraq>
+        <a>Лейтенант</a>
+        <b>Майор</b>
+        <c>Капитан</c>
+        <d>Полковник</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қазақстанда аумағы бойынша 2 орында қай облыс?</suraq>
+        <a>Қарағанды облысы</a>
+        <b>Алматы облысы</b>
+        <c>Маңғыстау облысы</c>
+        <d>Ақтөбе облысы</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Тарих атасы деп кімді атаған?</suraq>
+        <a>Сократты</a>
+        <b>Аристотельді</b>
+        <c>Геродотты</c>
+        <d>Платонды</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қазақстандағы ең жоғарғы өкілді орган.</suraq>
+        <a>Сот</a>
+        <b>Президент</b>
+        <c>Парламент</c>
+        <d>Министрлік</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қазақстанда қандай облыс жоқ?</suraq>
+        <a>Астана облысы</a>
+        <b>Алматы облысы</b>
+        <c>Павлодар облысы</c>
+        <d>Маңғыстау облысы</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аққу көлін аңсайды, Адам несін аңсайды?</suraq>
+        <a>Тойған жерін</a>
+        <b>Бастықтың кабинетін</b>
+        <c>Түнгі клубын</c>
+        <d>Туған жерін</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Алаш ұраны» әнін орындаған әнші</suraq>
+        <a>Мұхтар Шаханов</a>
+        <b>Бекболат Тілеухан</b>
+        <c>Қайрат Нұртас</c>
+        <d>Төреғали Төреәлі</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Абай Құнанбаев өмір сүрген жылдары</suraq>
+        <a>1835-1865</a>
+        <b>1840-1900</b>
+        <c>1841-1905</c>
+        <d>1845-1904</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Махаббат қызық мол жылдар» романын кім жазған?</suraq>
+        <a>Нұрғазы Шәкеев</a>
+        <b>Әзілхан Нұршайықов</b>
+        <c>Фариза Оңғарсынова</c>
+        <d>Тұрсынхан Әбдірахманов</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қарға баласын аппағым, кірпі баласын .... дейді. Мақалды аяқтаңыз</suraq>
+        <a>Балапаным</a>
+        <b>Тәттім</b>
+        <c>Жұмсағым</c>
+        <d>Қарағым</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қазақстан қай мемлекетпен шекаралас емес?</suraq>
+        <a>Қытай</a>
+        <b>Түркіменстан</b>
+        <c>Әзірбайжан</c>
+        <d>Қырғызстан</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Төрт тізесі бар жалғыз жануар.</suraq>
+        <a>Піл</a>
+        <b>Ит</b>
+        <c>Арыстан</c>
+        <d>Жылқы</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Абай туылған қаланы көрсетіңіз</suraq>
+        <a>Семей</a>
+        <b>Атырау</b>
+        <c>Тараз</c>
+        <d>Ақтөбе</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Түркі халықтарының саяси және рухани орталығы болған қала</suraq>
+        <a>Орал</a>
+        <b>Түркістан</b>
+        <c>Семей</c>
+        <d>Атырау</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай шоколадтың жарнамасы аралда түсіріледі</suraq>
+        <a>Твикс</a>
+        <b>Сникерс</b>
+        <c>Марс</c>
+        <d>Баунти</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Кезінде Австралияда өте тез көбейіп кеткен жануарлар</suraq>
+        <a>Тышқан</a>
+        <b>Қолтырауын</b>
+        <c>Қоян</c>
+        <d>Кенгуру</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Сен аш болсаң өзіңе ұқсамайсың, қай шоколадтың слоганы?</suraq>
+        <a>Твикс</a>
+        <b>Баунти</b>
+        <c>Марс</c>
+        <d>Сникерс</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Орыс ертегілеріндегі дәрігер</suraq>
+        <a>Болтай</a>
+        <b>Фельдшер</b>
+        <c>Айболит</c>
+        <d>Окулист</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Акварельдегі түстерді араластыруға керек зат</suraq>
+        <a>Су</a>
+        <b>Бензин</b>
+        <c>Спирт</c>
+        <d>Одеколон</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қазақ тілін қамын көп ойлайтын қазақ жанашары</suraq>
+        <a>Мұхтар Шаханов</a>
+        <b>Баян Мақсатқызы</b>
+        <c>Талғат Мұсабаев</c>
+        <d>Қайрат Нұртас</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жылы түс болып саналмайды</suraq>
+        <a>Сары</a>
+        <b>Қызғыш</b>
+        <c>Көк</c>
+        <d>Қызыл</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай сұраққа «ия» деп жауап беру мүмкін емес</suraq>
+        <a>Ақшаң бар ма?</a>
+        <b>Тірісің бе?</b>
+        <c>Барасың ба?</c>
+        <d>Ұйықтап жатсын ба?</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай сұраққа «жоқ» деп жауап беру мүмкін емес?</suraq>
+        <a>Келесің бе?</a>
+        <b>Барасың ба?</b>
+        <c>Ақшаң бар ма?</c>
+        <d>Тірісің бе?</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Гарри Поттердің басындағы жара неге ұқсас?</suraq>
+        <a>Допқа</a>
+        <b>Леп белгісіне</b>
+        <c>Найзағайға</c>
+        <d>Сұрақ белгісіне</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мұсылмандар үшін киелі қала</suraq>
+        <a>Мадрид</a>
+        <b>Дубай</b>
+        <c>Мекке</c>
+        <d>Мәскеу</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Слоганды толықтырыңыз «Тежелме, ... же»</suraq>
+        <a>Марс</a>
+        <b>Твикс</b>
+        <c>Баунти</c>
+        <d>Сникерс</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жер бетінде байқалған өте ыстық болған температура?</suraq>
+        <a>42,7</a>
+        <b>56,6</b>
+        <c>51,2</c>
+        <d>48,7</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай шоколадтың құрамы кокостан тұрады?</suraq>
+        <a>Твикс</a>
+        <b>Марс</b>
+        <c>Баунти</c>
+        <d>Сникерс</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Бір шоколадта 2 данасы бар</suraq>
+        <a>Баунти</a>
+        <b>Марс</b>
+        <c>Твикс</c>
+        <d>Сникерс</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Киімі ақ түсті футбол командасы</suraq>
+        <a>Барселона</a>
+        <b>Қайрат</b>
+        <c>Манчестер Юнайтед</c>
+        <d>Реал Мадрид</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мыналардың қайсысы ең суық жер?</suraq>
+        <a>Африка</a>
+        <b>Арктика</b>
+        <c>Гренландия</c>
+        <d>Антарктида</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Өзбекстанның ақша бірлігі</suraq>
+        <a>Сум</a>
+        <b>Сом</b>
+        <c>Юань</c>
+        <d>Лира</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қырғызстанның ақша бірлігі</suraq>
+        <a>Сум</a>
+        <b>Юань</b>
+        <c>Сом</c>
+        <d>Лира</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жер бетінде байқалған өте суық температура?</suraq>
+        <a>-67,5</a>
+        <b>-31,6</b>
+        <c>-91,2</c>
+        <d>-109,4</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Халқы тығыз орналасқан қала</suraq>
+        <a>Оттава</a>
+        <b>Канберра</b>
+        <c>Хиросима</c>
+        <d>Шанхай</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Халқы мыңға жетпейтін қала-мемлекет</suraq>
+        <a>Исландия</a>
+        <b>Ирландия</b>
+        <c>Люксембург</c>
+        <d>Ватикан</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мыналардың қайсысы ең бай қала?</suraq>
+        <a>Нью-Йорк</a>
+        <b>Токио</b>
+        <c>Шанхай</c>
+        <d>Гонконг</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мыналардың қайсысы ең кедей қала?</suraq>
+        <a>Токио</a>
+        <b>Ташкент</b>
+        <c>Киншаса</c>
+        <d>Каир</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Ең суретке көп түсіретін мұражай қай қалада орналасқан?</suraq>
+        <a>Оттава</a>
+        <b>Берлин</b>
+        <c>Токио</c>
+        <d>Нью-Йорк</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Ең ылғалды, жауын-шашын көп жауатын қала</suraq>
+        <a>Куба</a>
+        <b>Маусинрам</b>
+        <c>Лондон</c>
+        <d>Канберра</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мыналардың қайсысы ең құрғақ шөл?</suraq>
+        <a>Сахара</a>
+        <b>Намиб</b>
+        <c>Қызылқұм</c>
+        <d>Атакама</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай қалада өмір сүру құны қымбат?</suraq>
+        <a>Нұр-Сұлтан</a>
+        <b>Шанхай</b>
+        <c>Токио</c>
+        <d>Сингапур</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай қалада өмір сүру құны арзан?</suraq>
+        <a>Пекин</a>
+        <b>Ташкент</b>
+        <c>Мумбай</c>
+        <d>Бішкек</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Ең тамақты көп жейтін мемлекет</suraq>
+        <a>Канада</a>
+        <b>АҚШ</b>
+        <c>Оңтүстік Корея</c>
+        <d>Үндістан</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мыналардың қайсысы ең ежелгі қала?</suraq>
+        <a>Бразилиа</a>
+        <b>Дамаск</b>
+        <c>Гонконг</c>
+        <d>Каир</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мыналардың қайсысы ең жас мемлекет?</suraq>
+        <a>Оңтүстік Судан</a>
+        <b>Люксембург</b>
+        <c>Лихтенштейн</c>
+        <d>Ватикан</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+    <suraqtar>
+        <suraq>Дұрыс жазылу ережесі</suraq>
+        <a>Орфоэпия</a>
+        <b>Орфоэтика</b>
+        <c>Орфография</c>
+        <d>Орфоэпопея</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Дұрыс айтылу ережесі қалай аталады?</suraq>
+        <a>Орфоэпия</a>
+        <b>Орфография</b>
+        <c>Орфоэпопея</c>
+        <d>Орфоэтика</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Психиканы зерттейтін ғылым</suraq>
+        <a>Оптометрия</a>
+        <b>Офтальмология</b>
+        <c>Этнология</c>
+        <d>Психология</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Көбіне оркестрге арналған музыкалық шығармалар қалай аталады?</suraq>
+        <a>Симметрия</a>
+        <b>Акрибия</b>
+        <c>Симфония</c>
+        <d>Маис</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мағынасы ұқсас сөздер қала аталады?</suraq>
+        <a>Антоним</a>
+        <b>Архаизм</b>
+        <c>Синоним</c>
+        <d>Неологизм</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мағынасы қарама қарсы сөздер қалай аталады?</suraq>
+        <a>Архаизм</a>
+        <b>Синоним</b>
+        <c>Неологизм</c>
+        <d>Антоним</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жаңа сөздерді білдіретін термин</suraq>
+        <a>Неологизм</a>
+        <b>Синоним</b>
+        <c>Антоним</c>
+        <d>Архаизм</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Көнерген сөздерді білдіретін термин қалай аталады?</suraq>
+        <a>Синоним</a>
+        <b>Неологизм</b>
+        <c>Архаизм</c>
+        <d>Антоним</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Сфера» сөзі қайсысына сай келеді?</suraq>
+        <a>Дөңгелек</a>
+        <b>Шаршы</b>
+        <c>Ромб</c>
+        <d>Шар</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Белгілі бір жердің, не құрылғының сызбасы қалай аталады?</suraq>
+        <a>Технология</a>
+        <b>Астра</b>
+        <c>Ион</c>
+        <d>Схема</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасынан «Көрініс» дегенді білдіретін сөз</suraq>
+        <a>Театр</a>
+        <b>Диагональ</b>
+        <c>Астрофизика</c>
+        <d>Барион</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасынан «Алысты көру» дегенді білдіретін сөз</suraq>
+        <a>Библиотека</a>
+        <b>Аксиома</b>
+        <c>Ферзь</c>
+        <d>Телескоп</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасынан «Алыстағы дыбыс» дегенді білдіреді</suraq>
+        <a>Кофе</a>
+        <b>Шоу</b>
+        <c>Трек</c>
+        <d>Телефон</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай сөздің аудармасы «Бағып қарау, күтім жасау» дегенді білдіреді?</suraq>
+        <a>Шоу</a>
+        <b>Терапия</b>
+        <c>Трек</c>
+        <d>Кофе</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Температура өлшейтін құрал қалай аталады?</suraq>
+        <a>Барометр</a>
+        <b>Эхолот</b>
+        <c>Термометр</c>
+        <d>Флюгер</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай сөздің аудармасы «Табиғат» дегенді білдіреді?</suraq>
+        <a>Математика</a>
+        <b>География</b>
+        <c>Физика</c>
+        <d>Астрономия</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Дыбыстарды зерттейтін ғылым</suraq>
+        <a>Геометрия</a>
+        <b>Астрономия</b>
+        <c>Арифметика</c>
+        <d>Фонетика</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Шашылып жатқан орынды не белгілі бірнәрседегі ретсіздікті қандай терминмен айтады?</suraq>
+        <a>Хаос</a>
+        <b>Пиар</b>
+        <c>Хайп</c>
+        <d>Ноу-хау</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Белгілі бір тарихи оқиғаларды рет-ретімен көрсететін сызба қалай аталады?</suraq>
+        <a>Фотография</a>
+        <b>Хронология</b>
+        <c>Астрономия</c>
+        <d>Аксиома</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Ертедегі бір көзді алыптарды қалай атаған?</suraq>
+        <a>Маис</a>
+        <b>Клоун</b>
+        <c>Хаос</c>
+        <d>Циклоп</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Белгілі бір халықтың шығу тарихын зерттейтін ғылым саласы</suraq>
+        <a>Этнология</a>
+        <b>Экология</b>
+        <c>Экономика</c>
+        <d>Астрономия</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қоршаған ортаны қорғау туралы тақырыпта көп мәселелерді талқылайтын ғылым саласы</suraq>
+        <a>Экономика</a>
+        <b>Астрономия</b>
+        <c>Этнология</c>
+        <d>Экология</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Шен, атақтардың бір-біріне бағынуының рет-ретімен орналасуын қалай атайды?</suraq>
+        <a>Этнология</a>
+        <b>Иерархия</b>
+        <c>Экожүйе</c>
+        <d>Хаос</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қайсы жануардың кесірінен көп адам қайтыс болған?</suraq>
+        <a>Маса</a>
+        <b>Акула</b>
+        <c>Ара</c>
+        <d>Жолбарыс</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Каньон» сөзі қай тілден енген?</suraq>
+        <a>Испан</a>
+        <b>Ағылшын</b>
+        <c>Араб</c>
+        <d>Француз</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Испаниядағы бұқалармен қатысы бар ойын түрі</suraq>
+        <a>Кампос</a>
+        <b>Каньон</b>
+        <c>Коррида</c>
+        <d>Гаспачо</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Картопқа зияны бар қоңыз Американың қай штатының атауымен байланысты?</suraq>
+        <a>Техас</a>
+        <b>Вашингтон</b>
+        <c>Канзас</c>
+        <d>Колорадо</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жалбыз жапырағы қосылатын сусын қалай аталады?</suraq>
+        <a>Мачете</a>
+        <b>Мачо</b>
+        <c>Маис</c>
+        <d>Мохито</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Парад» сөзі қай тілден алынған?</suraq>
+        <a>Грек</a>
+        <b>Испан</b>
+        <c>Араб</c>
+        <d>Қытай</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Платина» сөзінің аудармасы қандай?</suraq>
+        <a>Алтын түсті</a>
+        <b>Қызыл</b>
+        <c>Күміс түсті</c>
+        <d>Қара</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мына сөздердің қайсысы бидің түрі?</suraq>
+        <a>Мачо</a>
+        <b>Самбо</b>
+        <c>Парад</c>
+        <d>Румба</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Испания және Латын Америкасындағы мереке қалай аталады?</suraq>
+        <a>Сомбреро</a>
+        <b>Фиеста</b>
+        <c>Мачо</c>
+        <d>Мачете</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Фламенко» сөзі қай тілден шыққан?</suraq>
+        <a>Француз</a>
+        <b>Араб</b>
+        <c>Испан</c>
+        <d>Ағылшын</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аңыз бойынша Эльдорадо қаласы қайда орналасқан?</suraq>
+        <a>Еуразия</a>
+        <b>Австралия</b>
+        <c>Оңтүстік Америка</c>
+        <d>Африка</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аңыз бойынша алтын мен бағалы тастарға бай қаланың аты қалай?</suraq>
+        <a>Эльдорадо</a>
+        <b>Шиншилла</b>
+        <c>Фламенко</c>
+        <d>Фиеста</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Ақшаға қатысты операцияларды орындайтын мекеме</suraq>
+        <a>Карнавал</a>
+        <b>Румба</b>
+        <c>Фиеста</c>
+        <d>Банк</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Секіріп ойнауға арналған зат</suraq>
+        <a>Мачете</a>
+        <b>Сомбреро</b>
+        <c>Батут</c>
+        <d>Шиншилла</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Вермишель» сөзі қай тілден енген?</suraq>
+        <a>Грек</a>
+        <b>Ағылшын</b>
+        <c>Италиялық</c>
+        <d>Испан</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Мафия» сөзі қай тілден енген?</suraq>
+        <a>Испан</a>
+        <b>Ағылшын</b>
+        <c>Италиялық</c>
+        <d>Француз</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Беттеріне әртүрлі маскаларды киіп көшеде парад секілді жүруді қалай атайды?</suraq>
+        <a>Кавалерия</a>
+        <b>Типикон</b>
+        <c>Гаспачо</c>
+        <d>Карнавал</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Африкадағы масалар тарататын аурудың аты қалай?</suraq>
+        <a>Малярия</a>
+        <b>Кавалерия</b>
+        <c>Гаспачо</c>
+        <d>Шиншилла</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Папарацци» сөзі қай тілден енген?</suraq>
+        <a>Испан</a>
+        <b>Италиялық</b>
+        <c>Грек</c>
+        <d>Француз</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасы «Ығырыңды шығаратын масалар» дегенді білдіретін көпшілікке танымал сөз</suraq>
+        <a>Пиар</a>
+        <b>Папарацци</b>
+        <c>Ноу-хау</c>
+        <d>Хайп</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жұлдыздар артынан аңдып, суретке түсіретін адамдарды қалай атайды?</suraq>
+        <a>Гаспачо</a>
+        <b>Фиеста</b>
+        <c>Офис-леди</c>
+        <d>Папарацци</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Шекарадан өтуге керек басты құжат</suraq>
+        <a>Лицензия</a>
+        <b>Туу туралы куәлік</b>
+        <c>Үйлену туралы куәлік</c>
+        <d>Паспорт</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Ракета» сөзі қай тілден шыққан?</suraq>
+        <a>Араб</a>
+        <b>Грек</b>
+        <c>Француз</c>
+        <d>Италиялық</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Басатын пернелері бар музыкалық аспап</suraq>
+        <a>Виолончель</a>
+        <b>Фортепиано</b>
+        <c>Скрипка</c>
+        <d>Қобыз</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Шәй» сөзі қай тілден енген?</suraq>
+        <a>Үндістан</a>
+        <b>Араб</b>
+        <c>Қытай</c>
+        <d>Грек</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасы бойынша «Өзі қозғалатын» дегенді білдіретін сөз</suraq>
+        <a>Мотоцикл</a>
+        <b>Троллейбус</b>
+        <c>Мотобайк</c>
+        <d>Автомобиль</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасы «Қысқаша пікір» дегенді білдіретін сөз</suraq>
+        <a>Автомобиль</a>
+        <b>Аннотация</b>
+        <c>Шиншилла</c>
+        <d>Батут</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Тыңдау» сөзі қай терминге жақын?</suraq>
+        <a>Аудитория</a>
+        <b>Аннотация</b>
+        <c>Фиеста</c>
+        <d>Карнавал</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасы «Бостық, ешнәрсе жоқтық» дегенді білдіретін сөз</suraq>
+        <a>Пиар</a>
+        <b>Папарацци</b>
+        <c>Вакуум</c>
+        <d>Ноу-хау</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай сөздің аудармасы «Қалай екенін білу» дегенді білдіреді?</suraq>
+        <a>Пиар</a>
+        <b>Ноу-хау</b>
+        <c>Карнавал</c>
+        <d>Вакуум</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай сөздің аудармасы «Ауырлық» дегенді білдіреді?</suraq>
+        <a>Ноу-хау</a>
+        <b>Вакуум</b>
+        <c>Гравитация</c>
+        <d>Гелий</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Шерлок Холмс қолданған тәсілі қалай аталады?</suraq>
+        <a>Дикция</a>
+        <b>Адукция</b>
+        <c>Дедукция</c>
+        <d>Редукция</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>10 санымен қай сөздің аудармасы байланысты?</suraq>
+        <a>Декан</a>
+        <b>Вакуум</b>
+        <c>Дедукция</c>
+        <d>Карнавал</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Ақшаның құнсыздануын ғылыми түрде қалай айтамыз?</suraq>
+        <a>Индукция</a>
+        <b>Инфляция</b>
+        <c>Дедукция</c>
+        <d>Дисперсия</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасы «Есептеу» дегенді білдіретін сөз</suraq>
+        <a>Инфляция</a>
+        <b>Индукция</b>
+        <c>Калькулятор</c>
+        <d>Декан</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қай адамның есімі «Король» сөзінің шығуына септігін тигізген?</suraq>
+        <a>Джек</a>
+        <b>Артур</b>
+        <c>Хлодвиг</c>
+        <d>Карл</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Белгілі бір нәрсенің ішкі құрамын, неден тұратынын білдіретін термин сөз</suraq>
+        <a>Вакуум</a>
+        <b>Контент</b>
+        <c>Пиар</c>
+        <d>Ноу-хау</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Ең көбі» дегенді білдіретін термин</suraq>
+        <a>Максимум</a>
+        <b>Минимум</b>
+        <c>Максима</c>
+        <d>Мини</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Ең азы» дегенді білдіретін термин</suraq>
+        <a>Максима</a>
+        <b>Максимум</b>
+        <c>Мини</c>
+        <d>Минимум</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Белгілі бірнәрсенің кіші екенін көрсету мақсатында қолданатын сөз</suraq>
+        <a>Макси</a>
+        <b>Максимум</b>
+        <c>Ре</c>
+        <d>Мини</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Көп елдерде қолданатын «Овал» сөзінің аудармасы қандай?</suraq>
+        <a>Жұмыртқа</a>
+        <b>Тас</b>
+        <c>Шар</c>
+        <d>Аспан</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Диаметрдің жартысы қалай аталады?</suraq>
+        <a>Радиус</a>
+        <b>Хорда</b>
+        <c>Сегмент</c>
+        <d>Диагональ</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Аксиома» сөзінің синонимін көрсетіңіз</suraq>
+        <a>Сегмент</a>
+        <b>Локомотив</b>
+        <c>Постулат</c>
+        <d>Субсидия</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Университет басшысы кім?</suraq>
+        <a>Командир</a>
+        <b>Директор</b>
+        <c>Ректор</c>
+        <d>Адмирал</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мектеп басшысы кім?</suraq>
+        <a>Генерал</a>
+        <b>Директор</b>
+        <c>Адмирал</c>
+        <d>Ректор</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Бірнәрсе жасауда мемлекет тарапынан көмекті қалай айтады?</suraq>
+        <a>Субсидия</a>
+        <b>Инфляция</b>
+        <c>Индукция</c>
+        <d>Дедукция</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасы «Көмектесу» дегенді білдіретін сөз</suraq>
+        <a>Инфляция</a>
+        <b>Субсидия</b>
+        <c>Дедукция</c>
+        <d>Ректор</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасы «Баяндау» дегенді білдіретін сөз</suraq>
+        <a>Ректор</a>
+        <b>Реферат</b>
+        <c>Адмирал</c>
+        <d>Контент</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Мотивация» сөзіне мағынасы ұқсас сөзді көрсетіңіз</suraq>
+        <a>Контент</a>
+        <b>Реферат</b>
+        <c>Сегмент</c>
+        <d>Стимул</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Ауыл шаруашылығында қолданылатын ең басты техниканың бірі</suraq>
+        <a>Мотоцикл</a>
+        <b>Автомобиль</b>
+        <c>Трактор</c>
+        <d>Троллейбус</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Дерек, шындық» сөздерін өзіне біріктірген термин сөз</suraq>
+        <a>Банк</a>
+        <b>Платина</b>
+        <c>Батут</c>
+        <d>Факт</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасы «Айналып тұрған» дегенді білдіретін сөз</suraq>
+        <a>Шоу</a>
+        <b>Генерал</b>
+        <c>Аксиома</c>
+        <d>Циклон</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Бір заттың әсерін ғылыми түрде қалай айтады?</suraq>
+        <a>Эффект</a>
+        <b>Сиеста</b>
+        <c>Эквалайзер</c>
+        <d>Парад</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Музыканың дыбысын мыналардың қайсысы реттеп тұрады?</suraq>
+        <a>Эквалайзер</a>
+        <b>Сиеста</b>
+        <c>Парад</c>
+        <d>Эффект</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жер бетінен жойылып кеткен пілдер қалай аталады?</suraq>
+        <a>Тапас</a>
+        <b>Мамонт</b>
+        <c>Наваха</c>
+        <d>Мачете</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Қазақтарда батыр болса, орыстарда кім болған?</suraq>
+        <a>Генерал</a>
+        <b>Полковник</b>
+        <c>Майор</c>
+        <d>Богатырь</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Аудармасы «Күзет» дегенді білдіретін орыстардың әскери термині</suraq>
+        <a>Малахай</a>
+        <b>Есаул</b>
+        <c>Богатырь</c>
+        <d>Караул</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Ресейдегі казактардың әскери шені қалай аталады?</suraq>
+        <a>Караул</a>
+        <b>Малахай</b>
+        <c>Есаул</c>
+        <d>Богатырь</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>«Абзац» сөзі қай тілден шыққан?</suraq>
+        <a>Ағылшын</a>
+        <b>Италиялық</b>
+        <c>Испан</c>
+        <d>Неміс</d>
+        <zhauap>4</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Жазғанда «Жаңа жол» дегенді білдіретін термин</suraq>
+        <a>Абзац</a>
+        <b>Мохито</b>
+        <c>Гаспачо</c>
+        <d>Схема</d>
+        <zhauap>1</zhauap>
+    </suraqtar>
+
+
+
+
+
+
+</kolaysuraqtar>

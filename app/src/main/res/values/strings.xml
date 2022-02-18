@@ -1,0 +1,36 @@
+<resources>
+
+
+    <string name="app_name">Миллионер</string>
+    <string name="quit">Шығу</string>
+    <string name="p1000">1 000 &#8376;</string>
+    <string name="p2500">2 500 &#8376;</string>
+    <string name="p5000">5 000 &#8376;</string>
+    <string name="p10000">10 000 &#8376;</string>
+    <string name="p20000">20 000 &#8376;</string>
+    <string name="p40000">40 000 &#8376;</string>
+    <string name="p60000">60 000 &#8376;</string>
+    <string name="p90000">90 000 &#8376;</string>
+    <string name="p150000">150 000 &#8376;</string>
+    <string name="p300000">300 000 &#8376;</string>
+    <string name="p600000">600 000 &#8376;</string>
+    <string name="p1200000">1 200 000 &#8376;</string>
+    <string name="p2500000">2 500 000 &#8376;</string>
+    <string name="p5000000">5 000 000 &#8376;</string>
+    <string name="p10000000">10 000 000 &#8376;</string>
+    <string name="withdraw">Ақшаны алу</string>
+    <string name="Audience_answers">Залдан көмек</string>
+    <string name="okay">ОК</string>
+    <string name="game_over">Ойын аяқталды\nСіздің табысыңыз:</string>
+    <string name="currency">&#8376;</string>
+    <string name="withdraw_sure">Ақшаны алуға сенімдісізбе ?</string>
+    <string name="no">Жоқ</string>
+    <string name="yes">Иә</string>
+    <string name="calling">Телефон</string>
+    <string name="game_over_final">Құттықтаймыз!!! Сіз \"Миллион кімге бұйырады\" ойынын сәтті аяқтадыңыз</string>
+    <string name="sound">Дыбыс</string>
+    <string name="interstitial_full_screen">ca-app-pub-7128529153485643/8232447858</string>
+    <string name="thanks">Рахмет!</string>
+
+
+</resources>
