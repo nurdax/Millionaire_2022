@@ -32,5 +32,7 @@
     <string name="interstitial_full_screen">ca-app-pub-7128529153485643/8232447858</string>
     <string name="thanks">Рахмет!</string>
 
+    <string name="msg_token_fmt">1:961020431801:android:968c785f886e0b42ac7a68!</string>
+
 
 </resources>

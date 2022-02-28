@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "961020431801",
+    "project_id": "millionaire-4a4f8",
+    "storage_bucket": "millionaire-4a4f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961020431801:android:968c785f886e0b42ac7a68",
+        "android_client_info": {
+          "package_name": "com.baursaq.million"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961020431801-qm5007jqda2bs4vb3vvv218g4fs7fqjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwXcaBP--4uoRxnGz4TXtsDPtAQWoMo2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961020431801-qm5007jqda2bs4vb3vvv218g4fs7fqjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

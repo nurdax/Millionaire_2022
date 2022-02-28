@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <kolaysuraqtar>
-    <suraqtar>
-        <suraq>Жарық сөзінің антонимі қайсы?</suraq>
-        <a>Ұзақ</a>
-        <b>Қараңғы</b>
-        <c>Ақ</c>
-        <d>Қатты</d>
-        <zhauap>2</zhauap>
-    </suraqtar>
-
-    <suraqtar>
-        <suraq>Мыналардық қайсысына су құйып ішеді?</suraq>
-        <a>Құрғақ орамал</a>
-        <b>Құрғақ жеміс</b>
-        <c>Құрғақ сүт</c>
-        <d>Құрғақ шарап</d>
-        <zhauap>3</zhauap>
-    </suraqtar>
-
-    <suraqtar>
-        <suraq>Нью-Йорк таксиінің түсі?</suraq>
-        <a>Көк</a>
-        <b>Қызыл</b>
-        <c>Ақ</c>
-        <d>Сары</d>
-        <zhauap>4</zhauap>
-    </suraqtar>
 
     <suraqtar>
         <suraq>Қайсы шама ең кіші?</suraq>
@@ -423,11 +397,11 @@
 
     <suraqtar>
         <suraq>Кристиано Рональду ойнайтын клуб?</suraq>
-        <a>Барселона</a>
+        <a>Манчестер Юнайтед</a>
         <b>Ливерпуль</b>
         <c>Ювентус</c>
-        <d>Арсенал</d>
-        <zhauap>3</zhauap>
+        <d>Реал Мадрид</d>
+        <zhauap>1</zhauap>
     </suraqtar>
 
     <suraqtar>
@@ -1054,17 +1028,6 @@
         <zhauap>2</zhauap>
     </suraqtar>
 
-
-    <suraqtar>
-        <suraq> Қарақат пен Қыдырәлі қай бағдарламаны жүргізеді?</suraq>
-        <a> КТА</a>
-        <b> Бенефис шоу</b>
-        <c> Әзіл әлемі</c>
-        <d> Көңілашар</d>
-        <zhauap>2</zhauap>
-    </suraqtar>
-
-
     <suraqtar>
         <suraq> Нұрлан Қоянбаев қай бағдарламаны жүргізген?</suraq>
         <a> Таңшолпан</a>
@@ -1348,16 +1311,6 @@
 
 
 
-    <suraqtar>
-        <suraq> «Сонда да сүйем» әнінің орындаушысы</suraq>
-        <a> Қайрат Нұртас</a>
-        <b> Ернар Айдар</b>
-        <c> Төреғали Төреәлі</c>
-        <d> Мейрамбек Беспаев</d>
-        <zhauap>2</zhauap>
-    </suraqtar>
-
-
 
     <suraqtar>
         <suraq> Ұлытау тобының продюсері кім?</suraq>
@@ -1542,14 +1495,6 @@
         <zhauap>3</zhauap>
     </suraqtar>
 
-    <suraqtar>
-        <suraq>Мыналардың қайсысы Хемингуэйдің есімі?</suraq>
-        <a>Эрнест</a>
-        <b>Элвис</b>
-        <c>Эндрю</c>
-        <d>Эраст</d>
-        <zhauap>1</zhauap>
-    </suraqtar>
 
     <suraqtar>
         <suraq>Тік бұрышты үшбұрышта міндетті түрде болады</suraq>
@@ -2013,7 +1958,7 @@
     </suraqtar>
 
     <suraqtar>
-        <suraq>Мағынасы ұқсас сөздер қала аталады?</suraq>
+        <suraq>Мағынасы ұқсас сөздер қалай аталады?</suraq>
         <a>Антоним</a>
         <b>Архаизм</b>
         <c>Синоним</c>
@@ -2289,6 +2234,32 @@
         <c>Фламенко</c>
         <d>Фиеста</d>
         <zhauap>1</zhauap>
+    </suraqtar>
+    <suraqtar>
+        <suraq>Жарық сөзінің антонимі қайсы?</suraq>
+        <a>Ұзақ</a>
+        <b>Қараңғы</b>
+        <c>Ақ</c>
+        <d>Қатты</d>
+        <zhauap>2</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Мыналардық қайсысына су құйып ішеді?</suraq>
+        <a>Құрғақ орамал</a>
+        <b>Құрғақ жеміс</b>
+        <c>Құрғақ сүт</c>
+        <d>Құрғақ шарап</d>
+        <zhauap>3</zhauap>
+    </suraqtar>
+
+    <suraqtar>
+        <suraq>Нью-Йорк таксиінің түсі?</suraq>
+        <a>Көк</a>
+        <b>Қызыл</b>
+        <c>Ақ</c>
+        <d>Сары</d>
+        <zhauap>4</zhauap>
     </suraqtar>
 
     <suraqtar>

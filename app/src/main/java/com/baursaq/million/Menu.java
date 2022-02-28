@@ -9,16 +9,13 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.CompoundButton;
-import android.widget.Switch;
 import android.widget.ToggleButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 
-
 public class Menu extends AppCompatActivity {
-    MediaPlayer mp;
-    GameBack gameBack;
+    MediaPlayer mediaPlayer;
     ToggleButton toggleButton;
     SharedPreferences sharedPreferences;
 
@@ -30,7 +27,7 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
         toggleButton = (ToggleButton) findViewById(R.id.toggle);
         getSupportActionBar().hide();
-        mp = MediaPlayer.create(this, R.raw.anaekran);
+        mediaPlayer = MediaPlayer.create(this, R.raw.anaekran);
         sharedPreferences = getSharedPreferences("ses", Context.MODE_PRIVATE);
         final SharedPreferences.Editor edit = sharedPreferences.edit();
 
@@ -40,12 +37,12 @@ public class Menu extends AppCompatActivity {
                 if (toggleButton.isChecked()) {
                     toggleButton.setBackground(getResources().getDrawable(R.drawable.soundon));
                     edit.putString("ses", "ok");
-                    mp.start();
+                    mediaPlayer.start();
                     edit.apply();
                 } else {
                     toggleButton.setBackground(getResources().getDrawable(R.drawable.soundoff));
                     edit.putString("ses", "no");
-                    mp.stop();
+                    mediaPlayer.stop();
                     edit.commit();
 
                 }
@@ -55,15 +52,15 @@ public class Menu extends AppCompatActivity {
 
         if (sharedPreferences.getString("ses", "").equals("ok")) {
             toggleButton.setChecked(true);
-            mp.start();
+            mediaPlayer.start();
         } else
             toggleButton.setChecked(false);
-    }
+        }
 
 
 
     public void yeniOyun(View view) {
-        mp.stop();
+        mediaPlayer.stop();
         startActivity(new Intent(Menu.this, Game.class));
     }
 
@@ -76,18 +73,18 @@ public class Menu extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
 
-        if (mp.isPlaying()) {
-            mp.stop();
+        if (mediaPlayer.isPlaying()) {
+            mediaPlayer.stop();
         }
     }
-
 
     @Override
     protected void onStop() {
         super.onStop();
-        if (mp.isPlaying()) {
-            mp.stop();
+        if (mediaPlayer.isPlaying()) {
+            mediaPlayer.stop();
         }
     }
+
 
 }

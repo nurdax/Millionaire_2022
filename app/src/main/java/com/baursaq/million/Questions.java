@@ -16,7 +16,7 @@ public class Questions {
         return cevaplar;
     }
 
-    public void setCevaplar(Map<String, String> cevaplar) {
+    public void setZhauaptar(Map<String, String> cevaplar) {
         this.cevaplar = cevaplar;
     }
 
@@ -24,7 +24,7 @@ public class Questions {
         return dogrucevap;
     }
 
-    public void setDogrucevap(String dogrucevap) {
+    public void setDurysZh(String dogrucevap) {
         this.dogrucevap = dogrucevap;
     }
 

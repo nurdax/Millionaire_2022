@@ -3,14 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/advid.xml" value="0.2315" />
         <entry key="app/src/main/res/drawable/bbbt.xml" value="0.257" />
         <entry key="app/src/main/res/drawable/btnc.xml" value="0.257" />
+        <entry key="app/src/main/res/drawable/exit.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/fiftyy.xml" value="0.2315" />
         <entry key="app/src/main/res/drawable/girisbutton.xml" value="0.257" />
+        <entry key="app/src/main/res/drawable/girisbuttontextcolor.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/hud.xml" value="0.2315" />
         <entry key="app/src/main/res/drawable/on.xml" value="0.257" />
+        <entry key="app/src/main/res/drawable/pbarkaplana.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/pbarkaplanp.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/peoplee.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/phonee.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/questback.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/resactiv.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/respass.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/round.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/seeitxml.xml" value="0.2315" />
+        <entry key="app/src/main/res/drawable/sorunormalcevap.xml" value="0.2315" />
         <entry key="app/src/main/res/drawable/soundoff.xml" value="0.257" />
         <entry key="app/src/main/res/drawable/soundon.xml" value="0.257" />
-        <entry key="app/src/main/res/layout/activity_game.xml" value="0.35625" />
-        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_game.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.25" />
         <entry key="app/src/main/res/layout/end_of_game.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/phone.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/takemoney.xml" value="0.35625" />

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -48,21 +49,20 @@ public class GameBack {
     Button c;
     Button d;
 
-    public static int gecensure = 0;
+    public static int aqsha = 0;
     public static Timer sureakisi = new Timer();
-    ImageButton cekilbuttonu;
-    static String kazanilantutar;
-    TextView sorucontainer;
-    Questions soru;
-    ImageButton yariyariya;
-    ImageButton telefonla;
-    ImageButton advid;
-    ImageButton seyircisor;
-    static String seyircijokercevap;
-    TextView[] parabutton;
+    ImageButton shygu;
+    static String currentAqsha;
+    TextView suraqcontainer;
+    Questions suraq;
+    ImageButton eluElu;
+    ImageButton telefon;
+    ImageButton zaldanKomek;
+    static String zal;
+    TextView[] qotaqbas;
     int index;
     int soruadet = 0;
-    int kacincisorudayim = 0;
+    int zhauaptar = 0;
     boolean ciftsiksiljoker = true;
     boolean seyircijoker = true;
     boolean ciftcevapjoker = true;
@@ -73,53 +73,46 @@ public class GameBack {
     private final String TAG = "MainActivity";
     TextView level;
 
-    public ImageButton getCekilbuttonu() {
-        return cekilbuttonu;
+    public ImageButton getShygu() {
+        return shygu;
     }
 
-    public void setCekilbuttonu(ImageButton cekilbuttonu) {
-        this.cekilbuttonu = cekilbuttonu;
+    public void setShygu(ImageButton shygu) {
+        this.shygu = shygu;
     }
 
-    public ImageButton getSeyircisor() {
-        return seyircisor;
+    public ImageButton getZaldanKomek() {
+        return zaldanKomek;
     }
 
-    public void setSeyircisor(ImageButton seyircisor) {
-        this.seyircisor = seyircisor;
+    public void setZaldanKomek(ImageButton zaldanKomek) {
+        this.zaldanKomek = zaldanKomek;
     }
 
-    public ImageButton getTelefonla() {
-        return telefonla;
+    public ImageButton getTelefon() {
+        return telefon;
     }
 
-    public void setTelefonla(ImageButton telefonla) {
-        this.telefonla = telefonla;
-    }
-
-    public ImageButton getAdvid() {
-        return advid;
-    }
-    public void setAdvid(ImageButton advid) {
-        this.advid = advid;
+    public void setTelefon(ImageButton telefon) {
+        this.telefon = telefon;
     }
 
     static String telefoncevabi;
 
-    public ImageButton getYariyariya() {
-        return yariyariya;
+    public ImageButton getEluElu() {
+        return eluElu;
     }
 
-    public void setYariyariya(ImageButton yariyariya) {
-        this.yariyariya = yariyariya;
+    public void setEluElu(ImageButton eluElu) {
+        this.eluElu = eluElu;
     }
 
-    public TextView[] getParabutton() {
-        return parabutton;
+    public TextView[] getQotaqbas() {
+        return qotaqbas;
     }
 
-    public void setParabutton(TextView[] parabutton) {
-        this.parabutton = parabutton;
+    public void setQotaqbas(TextView[] qotaqbas) {
+        this.qotaqbas = qotaqbas;
     }
 
     public int getSoruadet() {
@@ -136,7 +129,7 @@ public class GameBack {
         this.b = b;
         this.c = c;
         this.d = d;
-        this.sorucontainer = sorucontainer;
+        this.suraqcontainer = sorucontainer;
         qyunsuraq = zorsorugetir();
         onaysuraq = kolaysorugetir();
         ortasuraq = ortasorugetir();
@@ -164,10 +157,10 @@ public class GameBack {
     public void oyunOyna() {
 
 
-        getCekilbuttonu().setOnClickListener(new View.OnClickListener() {
+        getShygu().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                oyundaCekil();
+                oynnanShygu();
             }
 
         });
@@ -176,20 +169,20 @@ public class GameBack {
         TimerTask t = new TimerTask() {
             @Override
             public void run() {
-                gecensure++;
+                aqsha++;
             }
         };
         sureakisi = new Timer();
         sureakisi.scheduleAtFixedRate(t, 1000, 1000);
-        sorusor(kacincisorudayim, new cevap() {
+        sorusor(zhauaptar, new cevap() {
             @Override
-            public void cevapDogru() {
+            public void durysZhauap() {
 
             }
 
             @Override
-            public void cevapYanlis() {
-                oyunbitir();
+            public void qateZhauap() {
+                oynbitti();
             }
         });
 
@@ -272,15 +265,14 @@ public class GameBack {
     void sorusor(int sorusirasi, final cevap cevap) {
         index = sorusirasi;
         boolean sonuc = false;
-        if (index < 5) soru = onaysuraq.get(index);
-        else if (index > 3 && index < 10) soru = ortasuraq.get(index - 5);
-        else soru = qyunsuraq.get(index - 10);
+        if (index < 5) suraq = onaysuraq.get(index);
+        else if (index > 3 && index < 10) suraq = ortasuraq.get(index - 5);
+        else suraq = qyunsuraq.get(index - 10);
         Map<String, String> cevaplar = new HashMap<>();
-        cevaplar = soru.getCevaplar();
-        ciftejokerHakki(getYariyariya(), soru.getDogrucevap());
-        adVideo(getAdvid(), soru.getDogrucevap());
-        telefonJokerString(soru.getDogrucevap(), getTelefonla());
-        seyirciyesorJoker(getSeyircisor(), soru.getDogrucevap());
+        cevaplar = suraq.getCevaplar();
+        elugeElu(getEluElu(), suraq.getDogrucevap());
+        telefonJokerString(suraq.getDogrucevap(), getTelefon());
+        korermen(getZaldanKomek(), suraq.getDogrucevap());
         a.setVisibility(View.VISIBLE);
         b.setVisibility(View.VISIBLE);
         c.setVisibility(View.VISIBLE);
@@ -293,7 +285,7 @@ public class GameBack {
         b.setEnabled(true);
         c.setEnabled(true);
         d.setEnabled(true);
-        kazanilantutar = setKazanilanPara(index);
+        currentAqsha = boq(index);
         a.setBackground(activity.getDrawable(R.drawable.sorunormalcevap));
         a.setTextColor(Color.WHITE);
         b.setBackground(activity.getDrawable(R.drawable.sorunormalcevap));
@@ -302,12 +294,12 @@ public class GameBack {
         c.setTextColor(Color.WHITE);
         d.setBackground(activity.getDrawable(R.drawable.sorunormalcevap));
         d.setTextColor(Color.WHITE);
-        sorucontainer.setText(soru.getSorulansoru());
+        suraqcontainer.setText(suraq.getSorulansoru());
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 SesCalIkiSaniye(R.raw.sikisaretleme);
-                DogruButtonHerzamanYesil(soru.getDogrucevap());
+                DurysBtn(suraq.getDogrucevap());
                 a.setEnabled(false);
                 b.setEnabled(false);
                 c.setEnabled(false);
@@ -318,7 +310,7 @@ public class GameBack {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        if (a.getTag().equals(soru.getDogrucevap())) {
+                        if (a.getTag().equals(suraq.getDogrucevap())) {
                             SesCalIkiSaniye(R.raw.dogrucevap);
                             a.setBackground(activity.getDrawable(R.drawable.sorudogrucevap));
                             a.setTextColor(Color.BLACK);
@@ -326,22 +318,22 @@ public class GameBack {
                             handler.postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
-                                    cevap.cevapDogru();
+                                    cevap.durysZhauap();
                                     if (index < (getSoruadet() - 1)) {
                                         index++;
                                         sorusor(index, new cevap() {
                                             @Override
-                                            public void cevapDogru() {
+                                            public void durysZhauap() {
 
                                             }
 
                                             @Override
-                                            public void cevapYanlis() {
-                                                oyunbitir();
+                                            public void qateZhauap() {
+                                                oynbitti();
                                             }
                                         });
                                     } else {
-                                        oyunbitirfinal();
+                                        oynbittiFinal();
                                     }
                                 }
                             }, timeraf);
@@ -351,7 +343,7 @@ public class GameBack {
                             handler.postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
-                                    cevap.cevapYanlis();
+                                    cevap.qateZhauap();
 
                                 }
                             }, timeraf);
@@ -367,7 +359,7 @@ public class GameBack {
             public void onClick(View view) {
                 SesCalIkiSaniye(R.raw.sikisaretleme);
 
-                DogruButtonHerzamanYesil(soru.getDogrucevap());
+                DurysBtn(suraq.getDogrucevap());
                 b.setEnabled(false);
                 a.setEnabled(false);
                 c.setEnabled(false);
@@ -378,7 +370,7 @@ public class GameBack {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        if (b.getTag().equals(soru.getDogrucevap())) {
+                        if (b.getTag().equals(suraq.getDogrucevap())) {
                             SesCalIkiSaniye(R.raw.dogrucevap);
                             b.setBackground(activity.getDrawable(R.drawable.sorudogrucevap));
                             b.setTextColor(Color.WHITE);
@@ -386,22 +378,22 @@ public class GameBack {
                             handler.postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
-                                    cevap.cevapDogru();
+                                    cevap.durysZhauap();
                                     if (index < (getSoruadet() - 1)) {
                                         index++;
                                         sorusor(index, new cevap() {
                                             @Override
-                                            public void cevapDogru() {
+                                            public void durysZhauap() {
 
                                             }
 
                                             @Override
-                                            public void cevapYanlis() {
-                                                oyunbitir();
+                                            public void qateZhauap() {
+                                                oynbitti();
                                             }
                                         });
                                     } else {
-                                        oyunbitirfinal();
+                                        oynbittiFinal();
                                     }
                                 }
                             }, timeraf);
@@ -411,7 +403,7 @@ public class GameBack {
                             handler.postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
-                                    cevap.cevapYanlis();
+                                    cevap.qateZhauap();
                                 }
                             }, timeraf);
                             b.setBackground(activity.getDrawable(R.drawable.yanliscevap));
@@ -426,7 +418,7 @@ public class GameBack {
             public void onClick(View view) {
                 SesCalIkiSaniye(R.raw.sikisaretleme);
 
-                DogruButtonHerzamanYesil(soru.getDogrucevap());
+                DurysBtn(suraq.getDogrucevap());
                 c.setEnabled(false);
                 b.setEnabled(false);
                 a.setEnabled(false);
@@ -437,7 +429,7 @@ public class GameBack {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        if (c.getTag().equals(soru.getDogrucevap())) {
+                        if (c.getTag().equals(suraq.getDogrucevap())) {
                             SesCalIkiSaniye(R.raw.dogrucevap);
                             c.setBackground(activity.getDrawable(R.drawable.sorudogrucevap));
                             c.setTextColor(Color.WHITE);
@@ -445,22 +437,22 @@ public class GameBack {
                             handler.postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
-                                    cevap.cevapDogru();
+                                    cevap.durysZhauap();
                                     if (index < (getSoruadet() - 1)) {
                                         index++;
                                         sorusor(index, new cevap() {
                                             @Override
-                                            public void cevapDogru() {
+                                            public void durysZhauap() {
 
                                             }
 
                                             @Override
-                                            public void cevapYanlis() {
-                                                oyunbitir();
+                                            public void qateZhauap() {
+                                                oynbitti();
                                             }
                                         });
                                     } else {
-                                        oyunbitirfinal();
+                                        oynbittiFinal();
                                     }
                                 }
                             }, timeraf);
@@ -472,7 +464,7 @@ public class GameBack {
                             handler.postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
-                                    cevap.cevapYanlis();
+                                    cevap.qateZhauap();
                                 }
                             }, timeraf);
                             c.setBackground(activity.getDrawable(R.drawable.yanliscevap));
@@ -486,7 +478,7 @@ public class GameBack {
             @Override
             public void onClick(View view) {
                 SesCalIkiSaniye(R.raw.sikisaretleme);
-                DogruButtonHerzamanYesil(soru.getDogrucevap());
+                DurysBtn(suraq.getDogrucevap());
                 d.setEnabled(false);
                 b.setEnabled(false);
                 c.setEnabled(false);
@@ -497,12 +489,12 @@ public class GameBack {
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        if (d.getTag().equals(soru.getDogrucevap())) {
+                        if (d.getTag().equals(suraq.getDogrucevap())) {
                             SesCalIkiSaniye(R.raw.dogrucevap);
                             d.setBackground(activity.getDrawable(R.drawable.sorudogrucevap));
                             d.setTextColor(Color.WHITE);
                             final Handler handler = new Handler();
-                            cevap.cevapDogru();
+                            cevap.durysZhauap();
                             handler.postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
@@ -511,17 +503,17 @@ public class GameBack {
                                         index++;
                                         sorusor(index, new cevap() {
                                             @Override
-                                            public void cevapDogru() {
+                                            public void durysZhauap() {
 
                                             }
 
                                             @Override
-                                            public void cevapYanlis() {
-                                                oyunbitir();
+                                            public void qateZhauap() {
+                                                oynbitti();
                                             }
                                         });
                                     } else {
-                                        oyunbitirfinal();
+                                        oynbittiFinal();
                                     }
                                 }
                             }, timeraf);
@@ -531,7 +523,7 @@ public class GameBack {
                             handler.postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
-                                    cevap.cevapYanlis();
+                                    cevap.qateZhauap();
                                 }
                             }, timeraf);
                             d.setBackground(activity.getDrawable(R.drawable.yanliscevap));
@@ -545,35 +537,6 @@ public class GameBack {
 
     }
 
-    private void adVideo(final ImageButton advid, String dogrucevap) {
-
-        advid.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    if (ciftsiksiljoker) {
-                        ciftcevapjoker = false;
-                        advid.setEnabled(false);
-                        advid.setBackgroundTintList(ColorStateList.valueOf(activity.getResources().getColor(R.color.backoff)));;
-                        ArrayList<Button> buttonlar = new ArrayList<Button>();
-                        buttonlar.add(a);
-                        buttonlar.add(b);
-                        buttonlar.add(c);
-                        buttonlar.add(d);
-                        ArrayList<Button> silinebilirbuttonlar = new ArrayList<Button>();
-                        for (int i = 0; i < buttonlar.size(); i++) {
-                            if (!buttonlar.get(i).getTag().equals(dogrucevap)) {
-                                silinebilirbuttonlar.add(buttonlar.get(i));
-                            }
-                        }
-                        Collections.shuffle(silinebilirbuttonlar);
-                        silinebilirbuttonlar.get(0).setVisibility(View.INVISIBLE);;
-                        silinebilirbuttonlar.get(1).setVisibility(View.INVISIBLE);
-                        silinebilirbuttonlar.get(2).setVisibility(View.INVISIBLE);
-                    }
-                }
-            });
-        }
-
 
 
     private ArrayList<Questions> soruparse(XmlPullParser parser) throws XmlPullParserException, IOException {
@@ -581,7 +544,7 @@ public class GameBack {
         ArrayList<Questions> sorular = new ArrayList<>();
         int eventType = parser.getEventType();
         Questions soru = null;
-        Map<String, String> cevaplar = new HashMap<>();
+        Map<String, String> zhauap = new HashMap<>();
 
         while (eventType != XmlPullParser.END_DOCUMENT) {
             String tagname = parser.getName();
@@ -598,21 +561,21 @@ public class GameBack {
 
                 case XmlPullParser.END_TAG:
                     if (tagname.equalsIgnoreCase("suraqtar")) {
-                        soru.setCevaplar(cevaplar);
-                        cevaplar = new HashMap<>();
+                        soru.setZhauaptar(zhauap);
+                        zhauap = new HashMap<>();
                         sorular.add(soru);
                     } else if (tagname.equalsIgnoreCase("suraq")) {
                         soru.setSorulansoru(text);
                     } else if (tagname.equalsIgnoreCase("a")) {
-                        cevaplar.put("1", text);
+                        zhauap.put("1", text);
                     } else if (tagname.equalsIgnoreCase("b")) {
-                        cevaplar.put("2", text);
+                        zhauap.put("2", text);
                     } else if (tagname.equalsIgnoreCase("c")) {
-                        cevaplar.put("3", text);
+                        zhauap.put("3", text);
                     } else if (tagname.equalsIgnoreCase("d")) {
-                        cevaplar.put("4", text);
+                        zhauap.put("4", text);
                     } else if (tagname.equalsIgnoreCase("zhauap")) {
-                        soru.setDogrucevap(text);
+                        soru.setDurysZh(text);
                     }
                     break;
 
@@ -630,25 +593,25 @@ public class GameBack {
     }
 
     public interface cevap {
-        void cevapDogru();
+        void durysZhauap();
 
-        void cevapYanlis();
+        void qateZhauap();
     }
 
-    public String setKazanilanPara(int QQ) {
+    public String boq(int QQ) {
         String kazanilantutarsoru = "0/0";
-        for (int i = 0; i < getParabutton().length; i++) {
+        for (int i = 0; i < getQotaqbas().length; i++) {
 
 
 
             //20-150
             if (i == QQ) {
                 //getParabutton()[i].setBackground(activity.getDrawable(R.drawable.resactiv));
-                getParabutton()[i].setTextColor(ColorStateList.valueOf(activity.getResources().getColor(R.color.currentq)));
+                getQotaqbas()[i].setTextColor(ColorStateList.valueOf(activity.getResources().getColor(R.color.currentq)));
             } else if ((i == 4 || i == 9 || i == 14) && i != QQ) {
                 //getParabutton()[i].setTextColor(ColorStateList.valueOf(activity.getResources().getColor(R.color.colorAccent)));
             } else {
-                getParabutton()[i].setTextColor(ColorStateList.valueOf(activity.getResources().getColor(R.color.white)));
+                getQotaqbas()[i].setTextColor(ColorStateList.valueOf(activity.getResources().getColor(R.color.white)));
             }
 
         }
@@ -658,28 +621,28 @@ public class GameBack {
                 cekilmeparasi = "0";
                 break;
             case 1:
-                kazanilantutarsoru = "0";
+                kazanilantutarsoru = "2 500";
                 cekilmeparasi = "0";
                 level.setText(activity.getResources().getString(R.string.p2500));
                 break;
             case 2:
-                kazanilantutarsoru = "0";
+                kazanilantutarsoru = "5 000";
                 cekilmeparasi = "0";
                 level.setText(activity.getResources().getString(R.string.p5000));
                 break;
             case 3:
-                kazanilantutarsoru = "0";
+                kazanilantutarsoru = "10 000";
                 cekilmeparasi = "0";
                 level.setText(activity.getResources().getString(R.string.p10000));
                 break;
             case 4:
-                cekilmeparasi = "0";
                 kazanilantutarsoru = "20 000";
+                cekilmeparasi = "0";
                 level.setText(activity.getResources().getString(R.string.p20000));
                 break;
             case 5:
-                cekilmeparasi = "20 000";
                 kazanilantutarsoru = "40 000";
+                cekilmeparasi = "20 000";
                 level.setText(activity.getResources().getString(R.string.p40000));
                 break;
             case 6:
@@ -688,43 +651,43 @@ public class GameBack {
                 level.setText(activity.getResources().getString(R.string.p60000));
                 break;
             case 7:
-                cekilmeparasi = "20 000";
                 kazanilantutarsoru = "90 000";
+                cekilmeparasi = "20 000";
                 level.setText(activity.getResources().getString(R.string.p90000));
                 break;
             case 8:
-                cekilmeparasi = "20 000";
                 kazanilantutarsoru = "150 000";
+                cekilmeparasi = "20 000";
                 level.setText(activity.getResources().getString(R.string.p150000));
                 break;
             case 9:
-                cekilmeparasi = "20 000";
                 kazanilantutarsoru = "300 000";
+                cekilmeparasi = "20 000";
                 level.setText(activity.getResources().getString(R.string.p300000));
                 break;
             case 10:
-                cekilmeparasi = "20 000";
                 kazanilantutarsoru = "600 000";
+                cekilmeparasi = "20 000";
                 level.setText(activity.getResources().getString(R.string.p600000));
                 break;
             case 11:
-                cekilmeparasi = "300 000";
                 kazanilantutarsoru = "1 200 000";
+                cekilmeparasi = "300 000";
                 level.setText(activity.getResources().getString(R.string.p1200000));
                 break;
             case 12:
-                cekilmeparasi = "300 000";
                 kazanilantutarsoru = "2 500 000";
+                cekilmeparasi = "300 000";
                 level.setText(activity.getResources().getString(R.string.p2500000));
                 break;
             case 13:
-                cekilmeparasi = "300 000";
                 kazanilantutarsoru = "5 000 000";
+                cekilmeparasi = "300 000";
                 level.setText(activity.getResources().getString(R.string.p5000000));
                 break;
             case 14:
-                cekilmeparasi = "300 000";
                 kazanilantutarsoru = "10 000 000";
+                cekilmeparasi = "300 000";
                 level.setText(activity.getResources().getString(R.string.p10000000));
                 break;
 
@@ -735,7 +698,7 @@ public class GameBack {
     }
 
 
-    public static void oyunbitir() {
+    public static void oynbitti() {
         FragmentManager fm = activity.getFragmentManager();
 //        mediaPlayer.stop();
         OyunSonu dialogFragment = new OyunSonu();
@@ -748,7 +711,7 @@ public class GameBack {
     }
 
 
-    public static void oyunbitirfinal() {
+    public static void oynbittiFinal() {
         FragmentManager fm = activity.getFragmentManager();
 //        mediaPlayer.stop();
         OyunSonuFinal dialogFragment = new OyunSonuFinal();
@@ -756,14 +719,14 @@ public class GameBack {
     }
 
 
-    public void DogruButtonHerzamanYesil(final String dogruccevap) {
+    public void DurysBtn(final String duryszhauap) {
         final Button dogrucevapbuttonu;
 
-        if (a.getTag().equals(dogruccevap)) {
+        if (a.getTag().equals(duryszhauap)) {
             dogrucevapbuttonu = a;
-        } else if (b.getTag().equals(dogruccevap)) {
+        } else if (b.getTag().equals(duryszhauap)) {
             dogrucevapbuttonu = b;
-        } else if (c.getTag().equals(dogruccevap)) {
+        } else if (c.getTag().equals(duryszhauap)) {
             dogrucevapbuttonu = c;
         } else {
             dogrucevapbuttonu = d;
@@ -779,7 +742,7 @@ public class GameBack {
 
     }
 
-    public void ciftejokerHakki(final ImageButton cifte, final String dogrucevap) {
+    public void elugeElu(final ImageButton cifte, final String dogrucevap) {
 
         cifte.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -809,7 +772,7 @@ public class GameBack {
     }
 
 
-    public static class SeyirciJoker extends DialogFragment {
+    public static class KorermenZaldan extends DialogFragment {
         ImageView ia, ib, ic, id;
         ImageView dogrusik;
         Button dismissss;
@@ -827,7 +790,7 @@ public class GameBack {
             buttonlar.add(id);
             ArrayList<ImageView> xd = new ArrayList<ImageView>();
             for (int i = 0; i < buttonlar.size(); i++) {
-                if (buttonlar.get(i).getTag().equals(seyircijokercevap)) {
+                if (buttonlar.get(i).getTag().equals(zal)) {
                     dogrusik = buttonlar.get(i);
                     Random r = new Random();
                     int Low = 4;
@@ -888,24 +851,25 @@ public class GameBack {
         }
     }
 
-    public void oyundaCekil() {
+    public void oynnanShygu() {
         FragmentManager fm = activity.getFragmentManager();
-        OyundanCekil dialogFragment = new OyundanCekil();
+        OynnanShygu dialogFragment = new OynnanShygu();
         dialogFragment.show(fm, "Sample Fragment");
     }
 
 
 
-    public static class OyundanCekil extends DialogFragment {
+    public static class OynnanShygu extends DialogFragment {
 
-        int dialogWidth = 300;
-        int dialogHeight = 300;
+        /*int dialogWidth = 300;
+        int dialogHeight = 300;*/
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.takemoney, container, false);
-            getDialog().getWindow().setLayout(dialogWidth, dialogHeight);
+            //getDialog().getWindow().setLayout(dialogWidth, dialogHeight);
             Button cekilok = (Button) rootView.findViewById(R.id.cekilyes);
+            Menu menu = new Menu();
             Button cekilno = (Button) rootView.findViewById(R.id.cekilno);
             cekilok.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -917,7 +881,7 @@ public class GameBack {
                         sureakisi.cancel();
                     } catch (Exception e) {
                     }
-                    oyunbitir();
+                    oynbitti();
                 }
             });
 
@@ -968,7 +932,7 @@ public class GameBack {
                 telefoncevabi = konusma;
                 FragmentManager fm = activity.getFragmentManager();
                 TelefonJoker dialogFragment = new TelefonJoker();
-                dialogFragment.show(fm, "Joker");
+                dialogFragment.show(fm, "");
                 jokerbutton.setEnabled(false);
                 jokerbutton.setBackgroundTintList(ColorStateList.valueOf(activity.getResources().getColor(R.color.backoff)));
             }
@@ -994,14 +958,14 @@ public class GameBack {
         return results;
     }
 
-    public void seyirciyesorJoker(final ImageButton seyircisor, String cevap) {
-        seyircijokercevap = cevap;
+    public void korermen(final ImageButton seyircisor, String cevap) {
+        zal = cevap;
         seyircisor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FragmentManager fm = activity.getFragmentManager();
-                SeyirciJoker dialogFragment = new SeyirciJoker();
-                dialogFragment.show(fm, "Joker");
+                KorermenZaldan dialogFragment = new KorermenZaldan();
+                dialogFragment.show(fm, "");
                 seyircisor.setEnabled(false);
                 seyircisor.setBackgroundTintList(ColorStateList.valueOf(activity.getResources().getColor(R.color.backoff)));
             }
@@ -1016,19 +980,32 @@ public class GameBack {
             TextView para = (TextView) rootView.findViewById(R.id.kazandiginpara);
             String paraver = "";
             if (cikisdurumu == 1)
-                paraver = kazanilantutar;
+                paraver = currentAqsha;
             else if (cikisdurumu == 0)
                 paraver = cekilmeparasi;
             para.setText(paraver + " " + getActivity().getResources().getString(R.string.currency));
 
             mediaPlayer.stop();
             sureakisi.cancel();
-            Win win = new Win(paraver, gecensure);
-            TextView aciklama = (TextView) rootView.findViewById(R.id.aciklama);
-            aciklama.setText(getActivity().getResources().getString(R.string.game_over));
+            Win win = new Win(paraver, aqsha);
+            TextView aqshatext = (TextView) rootView.findViewById(R.id.aciklama);
+            aqshatext.setText(getActivity().getResources().getString(R.string.game_over));
             this.setCancelable(false);
-            /*SQLiteSkor sqLiteSkor = new SQLiteSkor(activity);
-            sqLiteSkor.addScore(win);*/
+            String finalParaver = paraver;
+
+            Button share = (Button) rootView.findViewById(R.id.share);
+            share.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                    sharingIntent.setType("text/plain");
+                    String shareBody = "Мен Миллион кімге бұйырады ойынынан "+ finalParaver + getActivity().getResources().getString(R.string.currency) + " табыс таптым";
+                    sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
+                    sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+                    startActivity(Intent.createChooser(sharingIntent, "Share via"));
+                }
+            });
+
             Button anamenu = (Button) rootView.findViewById(R.id.anasayfabutton);
             anamenu.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -1052,16 +1029,32 @@ public class GameBack {
             para.setText(paraver + " " + getActivity().getResources().getString(R.string.currency));
             mediaPlayer.stop();
             sureakisi.cancel();
-            Win win = new Win(paraver, gecensure);
-            TextView aciklama = (TextView) rootView.findViewById(R.id.aciklama);
-            aciklama.setText(getActivity().getResources().getString(R.string.game_over_final));
+            Win win = new Win(paraver, aqsha);
+            TextView aqshatext = (TextView) rootView.findViewById(R.id.aciklama);
+            aqshatext.setText(getActivity().getResources().getString(R.string.game_over_final));
             this.setCancelable(false);
             /*SQLiteSkor sqLiteSkor = new SQLiteSkor(activity);
             sqLiteSkor.addScore(win);*/
+            Button share = (Button) rootView.findViewById(R.id.share);
+            share.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                    sharingIntent.setType("text/plain");
+                    String shareBody = "Табыс :"+ paraver + getActivity().getResources().getString(R.string.currency);
+                    sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
+                    sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+                    startActivity(Intent.createChooser(sharingIntent, "Share via"));
+                }
+            });
             Button anamenu = (Button) rootView.findViewById(R.id.anasayfabutton);
             anamenu.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    Game.interstitialAd.loadAd(
+                            Game.interstitialAd.buildLoadAdConfig()
+                                    .withAdListener(Game.interstitialAdListener)
+                                    .build());
                     getActivity().finish();
                 }
             });
