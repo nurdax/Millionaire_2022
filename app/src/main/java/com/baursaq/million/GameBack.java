@@ -133,7 +133,7 @@ public class GameBack {
         qyunsuraq = zorsorugetir();
         onaysuraq = kolaysorugetir();
         ortasuraq = ortasorugetir();
-        mediaPlayer = MediaPlayer.create(activity, R.raw.oyunbaslangic);
+       mediaPlayer = MediaPlayer.create(activity, R.raw.backmusic);
         SharedPreferences sharedPreferences=activity.getSharedPreferences("ses", Context.MODE_PRIVATE);
 
        // level.setText("" + parabutton);
@@ -143,7 +143,7 @@ public class GameBack {
                 @Override
                 public void run() {
                     mediaPlayer.stop();
-                    mediaPlayer = MediaPlayer.create(activity, R.raw.soruekranigenel);
+                    mediaPlayer = MediaPlayer.create(activity, R.raw.backmusic);
                     mediaPlayer.start();
                     mediaPlayer.setLooping(true);
                     mediaPlayer.setVolume(0.3f, 0.3f);
@@ -298,7 +298,7 @@ public class GameBack {
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SesCalIkiSaniye(R.raw.sikisaretleme);
+               // SesCalIkiSaniye(R.raw.sikisaretleme);
                 DurysBtn(suraq.getDogrucevap());
                 a.setEnabled(false);
                 b.setEnabled(false);
@@ -311,7 +311,7 @@ public class GameBack {
                     @Override
                     public void run() {
                         if (a.getTag().equals(suraq.getDogrucevap())) {
-                            SesCalIkiSaniye(R.raw.dogrucevap);
+                            //SesCalIkiSaniye(R.raw.dogrucevap);
                             a.setBackground(activity.getDrawable(R.drawable.sorudogrucevap));
                             a.setTextColor(Color.BLACK);
                             final Handler handler = new Handler();
@@ -338,7 +338,7 @@ public class GameBack {
                                 }
                             }, timeraf);
                         } else {
-                            SesCal(R.raw.yanliscevap);
+                           // SesCal(R.raw.yanliscevap);
                             final Handler handler = new Handler();
                             handler.postDelayed(new Runnable() {
                                 @Override
@@ -357,7 +357,7 @@ public class GameBack {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SesCalIkiSaniye(R.raw.sikisaretleme);
+               // SesCalIkiSaniye(R.raw.sikisaretleme);
 
                 DurysBtn(suraq.getDogrucevap());
                 b.setEnabled(false);
@@ -371,7 +371,7 @@ public class GameBack {
                     @Override
                     public void run() {
                         if (b.getTag().equals(suraq.getDogrucevap())) {
-                            SesCalIkiSaniye(R.raw.dogrucevap);
+                            //SesCalIkiSaniye(R.raw.dogrucevap);
                             b.setBackground(activity.getDrawable(R.drawable.sorudogrucevap));
                             b.setTextColor(Color.WHITE);
                             final Handler handler = new Handler();
@@ -398,7 +398,7 @@ public class GameBack {
                                 }
                             }, timeraf);
                         } else {
-                            SesCal(R.raw.yanliscevap);
+                            //SesCal(R.raw.yanliscevap);
                             final Handler handler = new Handler();
                             handler.postDelayed(new Runnable() {
                                 @Override
@@ -416,7 +416,7 @@ public class GameBack {
         c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SesCalIkiSaniye(R.raw.sikisaretleme);
+               // SesCalIkiSaniye(R.raw.sikisaretleme);
 
                 DurysBtn(suraq.getDogrucevap());
                 c.setEnabled(false);
@@ -430,7 +430,7 @@ public class GameBack {
                     @Override
                     public void run() {
                         if (c.getTag().equals(suraq.getDogrucevap())) {
-                            SesCalIkiSaniye(R.raw.dogrucevap);
+                            //SesCalIkiSaniye(R.raw.dogrucevap);
                             c.setBackground(activity.getDrawable(R.drawable.sorudogrucevap));
                             c.setTextColor(Color.WHITE);
                             final Handler handler = new Handler();
@@ -457,7 +457,7 @@ public class GameBack {
                                 }
                             }, timeraf);
                         } else {
-                            SesCal(R.raw.yanliscevap);
+                            //SesCal(R.raw.yanliscevap);
 
 
                             final Handler handler = new Handler();
@@ -477,7 +477,7 @@ public class GameBack {
         d.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SesCalIkiSaniye(R.raw.sikisaretleme);
+                //SesCalIkiSaniye(R.raw.sikisaretleme);
                 DurysBtn(suraq.getDogrucevap());
                 d.setEnabled(false);
                 b.setEnabled(false);
@@ -490,7 +490,7 @@ public class GameBack {
                     @Override
                     public void run() {
                         if (d.getTag().equals(suraq.getDogrucevap())) {
-                            SesCalIkiSaniye(R.raw.dogrucevap);
+                            //SesCalIkiSaniye(R.raw.dogrucevap);
                             d.setBackground(activity.getDrawable(R.drawable.sorudogrucevap));
                             d.setTextColor(Color.WHITE);
                             final Handler handler = new Handler();
@@ -518,7 +518,7 @@ public class GameBack {
                                 }
                             }, timeraf);
                         } else {
-                            SesCal(R.raw.yanliscevap);
+                            //SesCal(R.raw.yanliscevap);
                             final Handler handler = new Handler();
                             handler.postDelayed(new Runnable() {
                                 @Override
@@ -700,7 +700,7 @@ public class GameBack {
 
     public static void oynbitti() {
         FragmentManager fm = activity.getFragmentManager();
-//        mediaPlayer.stop();
+        mediaPlayer.stop();
         OyunSonu dialogFragment = new OyunSonu();
         try{dialogFragment.show(fm, "Sample Fragment");
         }
@@ -713,7 +713,7 @@ public class GameBack {
 
     public static void oynbittiFinal() {
         FragmentManager fm = activity.getFragmentManager();
-//        mediaPlayer.stop();
+        mediaPlayer.stop();
         OyunSonuFinal dialogFragment = new OyunSonuFinal();
         dialogFragment.show(fm, "Sample Fragment");
     }
@@ -881,6 +881,7 @@ public class GameBack {
                         sureakisi.cancel();
                     } catch (Exception e) {
                     }
+
                     oynbitti();
                 }
             });
@@ -1010,6 +1011,10 @@ public class GameBack {
             anamenu.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    Game.interstitialAd.loadAd(
+                            Game.interstitialAd.buildLoadAdConfig()
+                                    .withAdListener(Game.interstitialAdListener)
+                                    .build());
                     getActivity().finish();
                 }
             });

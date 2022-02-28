@@ -37,7 +37,6 @@
         android:textSize="16sp"
         android:layout_weight="2"
         android:gravity="center"
-        android:fontFamily="@font/gothic"
         android:textColor="#fff" />
 
     <TextView
@@ -50,7 +49,6 @@
         android:layout_weight="1.5"
         android:textSize="16sp"
         android:gravity="center"
-        android:fontFamily="@font/gothic"
         android:textColor="#fff"
         tools:ignore="HardcodedText" />
 
@@ -62,7 +60,6 @@
         android:background="@drawable/girisbutton"
         android:textColor="#fff"
         android:layout_marginBottom="20dp"
-        android:fontFamily="@font/gothic"
         android:layout_weight="1.5"
         android:gravity="center"
         android:text="OK" />

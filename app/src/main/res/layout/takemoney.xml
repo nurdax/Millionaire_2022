@@ -23,7 +23,6 @@
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
         android:textSize="16sp"
-        android:fontFamily="@font/tes"
         android:gravity="center"
         android:text="@string/withdraw_sure"
         android:textColor="@android:color/white" />

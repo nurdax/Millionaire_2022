@@ -13,7 +13,6 @@ import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -164,7 +163,6 @@ public class Game extends AppCompatActivity {
 
     @Override
     public void onBackPressed()  {
-        Toast.makeText(this, "aaa", Toast.LENGTH_SHORT).show();
         gameBack.oynnanShygu();
     }
 

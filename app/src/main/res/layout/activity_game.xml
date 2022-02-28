@@ -80,7 +80,6 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:text="@string/p10000000"
-                    android:fontFamily="@font/gothic"
                     android:textColor="#FFB300"
                     android:textSize="20dp" />
 
@@ -89,7 +88,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:fontFamily="@font/gothic"
                     android:text="@string/p5000000"
                     android:textColor="#fff"
                     android:textSize="20dp" />
@@ -99,7 +97,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:fontFamily="@font/gothic"
                     android:text="@string/p2500000"
                     android:textColor="#fff"
                     android:textSize="20dp" />
@@ -110,7 +107,6 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:text="@string/p1200000"
-                    android:fontFamily="@font/gothic"
                     android:textColor="#fff"
                     android:textSize="20dp" />
 
@@ -119,7 +115,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:fontFamily="@font/tes"
                     android:text="@string/p600000"
                     android:textColor="#fff"
                     android:textSize="20dp" />
@@ -129,7 +124,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:fontFamily="@font/tes"
                     android:text="@string/p300000"
                     android:textColor="#FFB300"
                     android:textSize="20dp" />
@@ -139,7 +133,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:fontFamily="@font/tes"
                     android:text="@string/p150000"
                     android:textColor="#fff"
                     android:textSize="20dp" />
@@ -160,7 +153,6 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:text="@string/p60000"
-                    android:fontFamily="@font/tes"
                     android:textColor="#fff"
                     android:textSize="20dp" />
 
@@ -170,7 +162,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:fontFamily="@font/tes"
                     android:text="@string/p40000"
                     android:textColor="#fff"
                     android:textSize="20dp" />
@@ -181,7 +172,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:fontFamily="@font/tes"
                     android:text="@string/p20000"
                     android:textColor="#FFB300"
                     android:textSize="20dp" />
@@ -192,7 +182,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:fontFamily="@font/tes"
                     android:text="@string/p10000"
                     android:textColor="#fff"
                     android:textSize="20dp" />
@@ -203,7 +192,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:fontFamily="@font/tes"
                     android:text="@string/p5000"
                     android:textColor="#fff"
                     android:textSize="20dp" />
@@ -213,7 +201,6 @@
                     android:id="@+id/para2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/tes"
                     android:layout_centerHorizontal="true"
                     android:text="@string/p2500"
                     android:textColor="#fff"
@@ -225,7 +212,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:fontFamily="@font/tes"
                     android:text="@string/p1000"
                     android:textColor="#fff"
                     android:textSize="20dp" />
@@ -408,19 +394,20 @@
 
 
     </RelativeLayout>
+
     <RelativeLayout
         android:id="@+id/adreal"
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="100dp">
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
         <LinearLayout
             android:id="@+id/banner_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            />
+            app:layout_constraintBottom_toBottomOf="parent" />
     </RelativeLayout>
 
 
